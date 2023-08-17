@@ -1,1 +1,90 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenLab.sk</title>
+</head>
+<header>
+    <p>Ak máš záujem študovať spolu s nami, sme tu pre teba…</p>
+    <a href="https://discord.com/invite/fjRmVdzXcU">Openlab community </a> <!-- Chýba obrázok dsc (dolpním) -->
+    <!-- Chýba obrázok openlab (dolpním) -->
+    
+</header>
 
+
+<body>
+
+    <ul>
+        <li><a  href="úvod">Úvod</a></li>
+        <li><a  href="openLab">OpenLab</a></li>
+        <li><a  href="pre učiteľov">Pre učiteľov</a></li>
+        <li><a  href="partneri">Partneri</a></li>
+        <li><a  href="moderná škola">Moderná škola</a></li>
+        <li><a  href="časte otázky">Časté otázky</a></li>
+    </ul>
+    <button>Pridajte sa k nám</button>
+
+    <h1>Inštitút stredoškolského <br> odborného vzdelávania<br>
+    zameraný na IT & AI</h1>
+    <p>Realizujeme odborné vzdelávanie zamerané na IT pre
+        štátne školy ako nový štandard formálneho vzdelávania. </p>
+    <!-- Chýba obrázok (dolpním)  -->
+
+    <h1><br>Prečo OpenLab?<br></h1>
+    <p>V OpenLabe študentov učíme najnovšie technológie. Zároveň im dávame veľkú slobodu, pričom ich vedieme k zodpovednosti a samostatnosti, učíme ich princípy partnerského prístupu, pracovať v tíme, trénujeme ich schopnosti sebareflexie a podnecujeme ich kreativitu. Takto študentov pripravujeme osobnostne aj tech zručnosťami na veľké veci, ktoré môžu v budúcnosti tvoriť.</p>
+    <!-- Chýba obrázok (dolpním)  -->
+
+    <h1><br>Celospoločenský rozvoj<br></h1>
+    <p>Osnovy aj učebné materiály pre všetky tech oblasti sú open source. </p>
+    <!-- Chýba obrázok (dolpním)  -->
+
+    <h1><br>Učenie praxou<br></h1>
+    <p>Študentov vedieme k tímovému riešeniu problémov.</p>
+    <!-- Chýba obrázok (dolpním)  -->
+
+    <h1><br>Rozvoj talentu<br></h1>
+    <p>Vytvárame šikovné tímy schopné riešiť veľké problémy.</p>
+    <!-- Chýba obrázok (dolpním)  -->
+
+    <h1><br>Naša vízia v Openlabe<br></h1>
+    <p>Veríme, že otvorený prístup a kvalitné vzdelanie sú základom úspechu jednotlivca ako aj prosperujúcej spoločnosti.</p>
+    <p>Uvedomujeme si, že ak chceme niečo zmeniť, musíme ísť príkladom. Našim cieľom je rozšíriť princípy OpenLab-u na všetkých úrovniach škôl a nastaviť svetový štandard vzdelávania v školstve v technológiách.
+    </p>
+    
+    <p>6</p>
+    <p>tried</p>
+
+    <p>267</p>
+    <p>študentov</p>
+
+    <p>12</p>
+    <p>LabMastrov</p>
+
+    <p>2</p>
+    <p>školy</p>
+
+    <h1><br>V akých Laboch môžeš študovať?<br></h1>
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+    
+
+
+    
+</body>
+</html>
