@@ -6,26 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OpenLab.sk</title>
 </head>
-
 <body>
-
     <header>
-
-
         <p>Ak máš záujem študovať spolu s nami, sme tu pre teba…</p>
-        <a href="https://discord.com/invite/fjRmVdzXcU">Openlab community </a> <!-- Chýba obrázok dsc (dolpním) -->
-        <!-- Chýba obrázok openlab (dolpním) -->
-        
-    
+        <a href="https://discord.com/invite/fjRmVdzXcU">Openlab community</a>
+        <!-- Chýba obrázok dsc (doplním) -->
+        <!-- Chýba obrázok openlab (doplním) -->
     </header>
 
     <ul>
-        <li><a  href="úvod">Úvod</a></li>
-        <li><a  href="openLab">OpenLab</a></li>
-        <li><a  href="pre učiteľov">Pre učiteľov</a></li>
-        <li><a  href="partneri">Partneri</a></li>
-        <li><a  href="moderná škola">Moderná škola</a></li>
-        <li><a  href="časte otázky">Časté otázky</a></li>
+        <li><a href="úvod">Úvod</a></li>
+        <li><a href="openLab">OpenLab</a></li>
+        <li><a href="pre učiteľov">Pre učiteľov</a></li>
+        <li><a href="partneri">Partneri</a></li>
+        <li><a href="moderná škola">Moderná škola</a></li>
+        <li><a href="časte otázky">Časté otázky</a></li>
     </ul>
 
     <button>Pridajte sa k nám</button>
@@ -35,44 +30,46 @@
     </h1>
     <p>Realizujeme odborné vzdelávanie zamerané na IT pre
         štátne školy ako nový štandard formálneho vzdelávania. </p>
-    <!-- Chýba obrázok (dolpním)  -->
+    <!-- Chýba obrázok (doplním)  -->
 
     <h1>
         <br>Prečo OpenLab?<br>
-    
     </h1>
-    <p>V OpenLabe študentov učíme najnovšie technológie. Zároveň im dávame veľkú slobodu, pričom ich vedieme k zodpovednosti a samostatnosti, učíme ich princípy partnerského prístupu, pracovať v tíme, trénujeme ich schopnosti sebareflexie a podnecujeme ich kreativitu. Takto študentov pripravujeme osobnostne aj tech zručnosťami na veľké veci, ktoré môžu v budúcnosti tvoriť.</p>
-    <!-- Chýba obrázok (dolpním)  -->
+    <p>V OpenLabe študentov učíme najnovšie technológie. Zároveň im dávame veľkú slobodu,
+       pričom ich vedieme k zodpovednosti a samostatnosti, učíme ich princípy partnerského
+       prístupu, pracovať v tíme, trénujeme ich schopnosti sebareflexie a podnecujeme ich kreativitu.
+       Takto študentov pripravujeme osobnostne aj s technickými zručnosťami na veľké veci,
+       ktoré môžu v budúcnosti tvoriť.
+    </p>
+    <!-- Chýba obrázok (doplním)  -->
 
     <h1>
         <br>Celospoločenský rozvoj<br>
-
     </h1>
     <p>Osnovy aj učebné materiály pre všetky tech oblasti sú open source. </p>
-    <!-- Chýba obrázok (dolpním)  -->
+    <!-- Chýba obrázok (doplním)  -->
 
     <h1>
         <br>Učenie praxou<br>
-    
     </h1>
     <p>Študentov vedieme k tímovému riešeniu problémov.</p>
-    <!-- Chýba obrázok (dolpním)  -->
+    <!-- Chýba obrázok (doplním)  -->
 
     <h1>
         <br>Rozvoj talentu<br>
-    
     </h1>
     <p>Vytvárame šikovné tímy schopné riešiť veľké problémy.</p>
-    <!-- Chýba obrázok (dolpním)  -->
+    <!-- Chýba obrázok (doplním)  -->
 
     <h1>
         <br>Naša vízia v Openlabe<br>
-    
     </h1>
-    <p>Veríme, že otvorený prístup a kvalitné vzdelanie sú základom úspechu jednotlivca ako aj prosperujúcej spoločnosti.</p>
-    <p>Uvedomujeme si, že ak chceme niečo zmeniť, musíme ísť príkladom. Našim cieľom je rozšíriť princípy OpenLab-u na všetkých úrovniach škôl a nastaviť svetový štandard vzdelávania v školstve v technológiách.
+    <p>Veríme, že otvorený prístup a kvalitné vzdelanie sú základom úspechu jednotlivca
+       ako aj prosperujúcej spoločnosti. Uvedomujeme si, že ak chceme niečo zmeniť, musíme
+       ísť príkladom. Našim cieľom je rozšíriť princípy OpenLab-u na všetkých úrovniach
+       škôl a nastaviť svetový štandard vzdelávania v technológiách.
     </p>
-    
+
     <p>6</p>
     <p>tried</p>
 
@@ -88,27 +85,25 @@
     <h1><br>V akých Laboch môžeš študovať?<br></h1>
     <h4>HybridLab</h4>
     <p>Študenti sa učia vyvíjať hybridné aplikácie v HTML, PHP, CSS, JavaScript, Ionicu, Vue a OctoberCMS.</p>
-    <!-- Chýba obrázok (dolpním)  -->
+    <!-- Chýba obrázok (doplním)  -->
 
     <h4>GamesLab</h4>
-    <p> Študenti vyvíjajú mobilné hry v Unity a GDevelop, učia sa tvoriť 2D grafiku v programe Piskel, 3D grafiku v programe Blender a herný dizajn.</p>
-    <!-- Chýba obrázok (dolpním)  -->
+    <p>Študenti vyvíjajú mobilné hry v Unity a GDevelop, učia sa tvoriť 2D grafiku v programe Piskel,
+       3D grafiku v programe Blender a herný dizajn.</p>
+    <!-- Chýba obrázok (doplním)  -->
 
     <h4>AppsLab</h4>
     <p>Študenti sa učia vyvíjať mobilné aplikácie v C# a Xamarin.forms a webové aplikácie v Java a Angular JS. </p>
-    <!-- Chýba obrázok (dolpním)  -->
+    <!-- Chýba obrázok (doplním)  -->
 
     <h1> Náchádzame sa na dvoch školách</h1>
-    <!-- Chýba obrázok (dolpním)  -->
+    <!-- Chýba obrázok (doplním)  -->
     <p>Hálova 16, Bratislava</p>
     <h4>Stredná Priemyselná Škola Elektrotechnická</h4>
     <a href="https://spsehalova.sk/">https://spsehalova.sk/</a>
 
-    <!-- Chýba obrázok (dolpním)  -->
-    <p>Nábrežná 1325, Kysucké Nové Mesto</p>
-    <h4>Stredná Priemyselná Škola Informačných Technológií</h4>
-    <a href="http://www.spsknm.sk/ssknm/">http://www.spsknm.sk/ssknm/</a>
+    <!-- Chýba obrázok (doplním)  -->
+   
 
+    
 
-</body>
-</html>
