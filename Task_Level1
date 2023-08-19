@@ -7,137 +7,166 @@
     <title>OpenLab.sk</title>
 </head>
 <body>
-    <header>
-        <p>Ak máš záujem študovať spolu s nami, sme tu pre teba…</p>
-        <a href="https://discord.com/invite/fjRmVdzXcU">Openlab community</a>
-        <!-- Chýba obrázok dsc (doplním) -->
-        <!-- Chýba obrázok openlab (doplním) -->
-    </header>
+    <!-- Sekcia: Header -->
+    <section class="header-section">
+        <header>
+            <p>Ak máš záujem študovať spolu s nami, sme tu pre teba…</p>
+            <a href="https://discord.com/invite/fjRmVdzXcU">Openlab community</a>
+            <!-- Chýba obrázok dsc (doplním) -->
+            <!-- Chýba obrázok openlab (doplním) -->
+        </header>
+    </section>
 
-    <ul>
-        <li><a href="úvod">Úvod</a></li>
-        <li><a href="openLab">OpenLab</a></li>
-        <li><a href="pre učiteľov">Pre učiteľov</a></li>
-        <li><a href="partneri">Partneri</a></li>
-        <li><a href="moderná škola">Moderná škola</a></li>
-        <li><a href="časte otázky">Časté otázky</a></li>
-    </ul>
+    <!-- Sekcia: Navigácia -->
+    <section class="navigation-section">
+        <nav>
+            <ul>
+                <li><a href="úvod">Úvod</a></li>
+                <li><a href="openLab">OpenLab</a></li>
+                <li><a href="pre učiteľov">Pre učiteľov</a></li>
+                <li><a href="partneri">Partneri</a></li>
+                <li><a href="moderná škola">Moderná škola</a></li>
+                <li><a href="časte otázky">Časté otázky</a></li>
+            </ul>
+        </nav>
+    </section>
 
-    <button>Pridajte sa k nám</button>
+    <!-- Sekcia: Tlačidlo -->
+    <section class="button-section">
+        <button>Pridajte sa k nám</button>
+    </section>
 
-    <h1>Inštitút stredoškolského <br> odborného vzdelávania<br>
-    zameraný na IT & AI
-    </h1>
-    <p>Realizujeme odborné vzdelávanie zamerané na IT pre
-        štátne školy ako nový štandard formálneho vzdelávania. </p>
-    <!-- Chýba obrázok (doplním)  -->
+    <!-- Sekcia: Inštitút stredoškolského odborného vzdelávania -->
+    <section class="institute-section">
+        <h1>Inštitút stredoškolského <br> odborného vzdelávania<br>
+        zameraný na IT & AI
+        </h1>
+        <p>Realizujeme odborné vzdelávanie zamerané na IT pre
+            štátne školy ako nový štandard formálneho vzdelávania. </p>
+        <!-- Chýba obrázok (doplním)  -->
+    </section>
 
-    <h1>
-        <br>Prečo OpenLab?<br>
-    </h1>
-    <p>V OpenLabe študentov učíme najnovšie technológie. Zároveň im dávame veľkú slobodu,
-       pričom ich vedieme k zodpovednosti a samostatnosti, učíme ich princípy partnerského
-       prístupu, pracovať v tíme, trénujeme ich schopnosti sebareflexie a podnecujeme ich kreativitu.
-       Takto študentov pripravujeme osobnostne aj s technickými zručnosťami na veľké veci,
-       ktoré môžu v budúcnosti tvoriť.
-    </p>
-    <!-- Chýba obrázok (doplním)  -->
+    <!-- Sekcia: Prečo OpenLab? -->
+    <section class="why-openlab-section">
+        <h1>
+            <br>Prečo OpenLab?<br>
+        </h1>
+        <p>V OpenLabe študentov učíme najnovšie technológie...</p>
+        <img src="HTML/CSS_files/green.svg" alt="Krásny obrázok">
+    </section>
 
-    <h1>
-        <br>Celospoločenský rozvoj<br>
-    </h1>
-    <p>Osnovy aj učebné materiály pre všetky tech oblasti sú open source. </p>
-    <!-- Chýba obrázok (doplním)  -->
+    <!-- Sekcia: Celospoločenský rozvoj -->
+    <section class="social-development-section">
+        <h1>
+            <br>Celospoločenský rozvoj<br>
+        </h1>
+        <p>Osnovy aj učebné materiály pre všetky tech oblasti sú open source. </p>
+        <!-- Chýba obrázok (doplním)  -->
+    </section>
 
-    <h1>
-        <br>Učenie praxou<br>
-    </h1>
-    <p>Študentov vedieme k tímovému riešeniu problémov.</p>
-    <!-- Chýba obrázok (doplním)  -->
+    <!-- Sekcia: Učenie praxou -->
+    <section class="learning-by-doing-section">
+        <h1>
+            <br>Učenie praxou<br>
+        </h1>
+        <p>Študentov vedieme k tímovému riešeniu problémov.</p>
+        <!-- Chýba obrázok (doplním)  -->
+    </section>
 
-    <h1>
-        <br>Rozvoj talentu<br>
-    </h1>
-    <p>Vytvárame šikovné tímy schopné riešiť veľké problémy.</p>
-    <!-- Chýba obrázok (doplním)  -->
+    <!-- Sekcia: Rozvoj talentu -->
+    <section class="talent-development-section">
+        <h1>
+            <br>Rozvoj talentu<br>
+        </h1>
+        <p>Vytvárame šikovné tímy schopné riešiť veľké problémy.</p>
+        <!-- Chýba obrázok (doplním)  -->
+    </section>
 
-    <h1>
-        <br>Naša vízia v Openlabe<br>
-    </h1>
-    <p>Veríme, že otvorený prístup a kvalitné vzdelanie sú základom úspechu jednotlivca
-       ako aj prosperujúcej spoločnosti. Uvedomujeme si, že ak chceme niečo zmeniť, musíme
-       ísť príkladom. Našim cieľom je rozšíriť princípy OpenLab-u na všetkých úrovniach
-       škôl a nastaviť svetový štandard vzdelávania v technológiách.
-    </p>
+    <!-- Sekcia: Naša vízia v Openlabe -->
+    <section class="our-vision-section">
+        <h1>
+            <br>Naša vízia v Openlabe<br>
+        </h1>
+        <p>Veríme, že otvorený prístup a kvalitné vzdelanie sú základom úspechu...</p>
+    </section>
 
-    <p>6</p>
-    <p>tried</p>
+    <!-- Sekcia: Štatistiky -->
+    <section class="statistics-section">
+        <p>6</p>
+        <p>tried</p>
+        <p>267</p>
+        <p>študentov</p>
+        <p>12</p>
+        <p>LabMastrov</p>
+        <p>2</p>
+        <p>školy</p>
+    </section>
 
-    <p>267</p>
-    <p>študentov</p>
+    <!-- Sekcia: Labovia -->
+    <section class="labs-section">
+        <h1><br>V akých Laboch môžeš študovať?<br></h1>
+        <h4>HybridLab</h4>
+        <p>Študenti sa učia vyvíjať hybridné aplikácie v HTML, PHP, CSS, JavaScript, Ionicu, Vue a OctoberCMS.</p>
+        <!-- Chýba obrázok (doplním)  -->
+        <h4>GamesLab</h4>
+        <p>Študenti vyvíjajú mobilné hry v Unity a GDevelop, učia sa tvoriť 2D grafiku...</p>
+        <!-- Chýba obrázok (doplním)  -->
+        <h4>AppsLab</h4>
+        <p>Študenti sa učia vyvíjať mobilné aplikácie v C# a Xamarin.forms a webové aplikácie v Java a Angular JS. </p>
+        <!-- Chýba obrázok (doplním)  -->
+    </section>
 
-    <p>12</p>
-    <p>LabMastrov</p>
+    <!-- Sekcia: Lokácie -->
+    <section class="locations-section">
+        <h1> Náchádzame sa na dvoch školách</h1>
+        <!-- Chýba obrázok (doplním)  -->
+        <p>Hálova 16, Bratislava</p>
+        <h4>Stredná Priemyselná Škola Elektrotechnická</h4>
+        <a href="https://spsehalova.sk/">https://spsehalova.sk/</a>
+        <!-- Chýba obrázok (doplním)  -->
+    </section>
 
-    <p>2</p>
-    <p>školy</p>
+    <!-- Sekcia: Hodnotenie OpenLabu študentmi -->
+    <section class="student-testimonials-section">
+        <h4>Čo si myslia o OpenLabe študenti?</h4>
+        <p>Openlab mi dal neuveriteľné množstvo skúsenosti do života, super ľudí...</p>
+        <p>
+            <strong>Marek, </strong>
+            HybridLab, IST
+        </p> 
+        <!-- Chýba šípky (doplním)  -->
+        <!-- Chýba obrázok (doplním)  -->
+        <!-- Chýba obrázok (doplním)  -->
+    </section>
 
-    <h1><br>V akých Laboch môžeš študovať?<br></h1>
-    <h4>HybridLab</h4>
-    <p>Študenti sa učia vyvíjať hybridné aplikácie v HTML, PHP, CSS, JavaScript, Ionicu, Vue a OctoberCMS.</p>
-    <!-- Chýba obrázok (doplním)  -->
-
-    <h4>GamesLab</h4>
-    <p>Študenti vyvíjajú mobilné hry v Unity a GDevelop, učia sa tvoriť 2D grafiku v programe Piskel,
-       3D grafiku v programe Blender a herný dizajn.</p>
-    <!-- Chýba obrázok (doplním)  -->
-
-    <h4>AppsLab</h4>
-    <p>Študenti sa učia vyvíjať mobilné aplikácie v C# a Xamarin.forms a webové aplikácie v Java a Angular JS. </p>
-    <!-- Chýba obrázok (doplním)  -->
-
-    <h1> Náchádzame sa na dvoch školách</h1>
-    <!-- Chýba obrázok (doplním)  -->
-    <p>Hálova 16, Bratislava</p>
-    <h4>Stredná Priemyselná Škola Elektrotechnická</h4>
-    <a href="https://spsehalova.sk/">https://spsehalova.sk/</a>
-
-    <!-- Chýba obrázok (doplním)  -->
-
-    <h4>Čo si myslia o OpenLabe študenti?</h4>
-    <p>Openlab mi dal neuveriteľné množstvo skúsenosti do života, super ľudí, s ktorými vďaka stážam pracujem v rovnakej firme a samozrejme mnoho ďalších dôležitých veci pre fungovanie v dnešnej “IT” sfére. Prístup akým sa tu vyučuje je presne taký, aký v dnešnej dobe potrebujeme na stredných školách.</p>
-    <p>
-        <strong>Marek, </strong>
-        HybridLab, IST
-    </p> 
-    <!-- Chýba šípky (doplním)  -->
-    <!-- Chýba obrázok (doplním)  -->
-    <!-- Chýba obrázok (doplním)  -->
-
-    <h1>
-        Pridajte sa k nám <br>
-        <strong>My všetci sme OpenLab…</strong>
-    </h1>
-
-    <h4>LabMastri</h4>
-    <p>Odborníci z praxe, ktorí odovzdávajú študentom svoj know-how v roli mentora 5 hodín týždenne celý školský rok.</p>
-    <!-- Chýba šípky (doplním)  -->
-
-    <h4>Firmy</h4>
-    <p>Technologické firmy sú garantmi obsahu jednotlivých labov, spolupracujú so študentmi na projektoch a v rámci študentských stáží.</p>
-    <!-- Chýba šípky (doplním)  -->
-
-    <h4>Školy</h4>
-    <p>Stredné odborné školy zamerané na digitálne technológie v jednotlivých regiónoch inovujú svoje technologické vzdelávanie.</p>
-    <!-- Chýba šípky (doplním)  -->
-
-    <h4>Študenti</h4>
-    <p>Stredoškoláci so záujmom o najnovšie technológie a silnou vnútornou motiváciou učiť sa nové veci a rozvíjať svoje schopnosti.</p>
-    <!-- Chýba šípky (doplním)  -->
-
-    
-
+    <!-- Sekcia: Partneri OpenLabu -->
+    <section class="partners-section">
+        <h1>
+            Pridajte sa k nám <br>
+            <strong>My všetci sme OpenLab…</strong>
+        </h1>
+        <h4>LabMastri</h4>
+        <p>Odborníci z praxe, ktorí odovzdávajú študentom svoj know-how v roli mentora 5 hodín týždenne celý školský rok.</p>
+        <!-- Chýba šípky (doplním)  -->
+        <h4>Firmy</h4>
+        <p>Technologické firmy sú garantmi obsahu jednotlivých labov, spolupracujú so študentmi na projektoch a v rámci študentských stáží.</p>
+        <!-- Chýba šípky (doplním)  -->
+        <h4>Školy</h4>
+        <p>Stredné odborné školy zamerané na digitálne technológie v jednotlivých regiónoch inovujú svoje technologické vzdelávanie.</p>
+        <!-- Chýba šípky (doplním)  -->
+        <h4>Študenti</h4>
+        <p>Stredoškoláci so záujmom o najnovšie technológie a silnou vnútornou motiváciou učiť sa nové veci a rozvíjať svoje schopnosti.</p>
+        <!-- Chýba šípky (doplním)  -->
+    </section>
 </body>
-    </html>
+</html>
+
+
+
+
+
+
+
+
     
 
