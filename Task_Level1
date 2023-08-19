@@ -178,12 +178,30 @@
         <p>Stredoškoláci so záujmom o najnovšie technológie a silnou vnútornou motiváciou učiť sa nové veci a rozvíjať svoje schopnosti.</p>
         <img src="images/arrow-right.svg">
         <img src="images/arrow-right-blue.svg">
+        <p>
+            Labmastri<strong> v OpenLabe</strong>
+        </p>
     </section>
 
+    <!-- Sekcia: Čo povedali openlabe študenti -->
+    <section class="openlab-talk_students">
+        <h4>V OpenLabe sa okrem technologických vedomostí a zručností snažíme rozvíjať aj iné dôležité parametre kvalitných ľudí.</h4>
+        <p>Ako sú zodpovednosť, spoľahlivosť, samostatnosť, ale aj tímovosť a vzájomnú komunikáciu. Prijímame výzvy najmä voči svojím vlastným ja.</p>
+        <p>Lenka Kubová</p>
+        <p>Hemisfera na SPŠ IT KNM</p>
+        <img src="images/Samuel Uhliar_študent.jpg">
+        <img src="images/Lenka Kubová.jpeg" height="470px">
+        <img src="images/firm.png.webp" height="440px">
+        <img src="images/o_letter.png.webp" height="470px">
 
-    <!-- Sekcia: Vyjadrenie študentov  -->
-    <section class="openlab-students-talk-about">
-
+        <p>
+            Firmy<strong> v OpenLabe</strong>
+        </p>
+        <h4>Technológie sa neustále menia. Preto to “čo” sa študenti učia je druhoradé.</h4>
+        <p>V prvom rade riešime “prečo” a “ako” sa študenti vzdelávajú. Inými slovami, OpenLab je o prístupe. Ten keď si študenti osvoja, dokážu ho aplikovať na čokoľvek po zvyšok života.</p>
+        <img src="images/signature1.webp" height="50px">
+        <p>Grigor Ayrumyan</p>
+        <p>CEO at WEZEO</p>
 
     </section>
 
@@ -191,6 +209,30 @@
 </body>
 </html>
 
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+    
 
 
 
