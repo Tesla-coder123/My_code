@@ -4,22 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OpenLab.sk</title>
+    <title>OpenLab.sk - Inštitút stredoškolského odborného vzdelávania zameraný na IT &amp; AI</title>
 </head>
 <body>
+
     <!-- Sekcia: Header -->
     <section class="header-section">
         <header>
             <p>Ak máš záujem študovať spolu s nami, sme tu pre teba…</p>
-            <a href="https://discord.com/invite/fjRmVdzXcU">Openlab community</a>
-            <!-- Chýba obrázok dsc (doplním) -->
-            <!-- Chýba obrázok openlab (doplním) -->
+            <a href="https://discord.com/invite/fjRmVdzXcU">Openlab community</a> <img src="images/discord.svg">
         </header>
     </section>
 
     <!-- Sekcia: Navigácia -->
     <section class="navigation-section">
         <nav>
+            <img src="images/openlab-logo.svg">
+
             <ul>
                 <li><a href="úvod">Úvod</a></li>
                 <li><a href="openLab">OpenLab</a></li>
@@ -41,9 +42,10 @@
         <h1>Inštitút stredoškolského <br> odborného vzdelávania<br>
         zameraný na IT & AI
         </h1>
+        <img src="images/hlavna.png.webp" height="500px">
         <p>Realizujeme odborné vzdelávanie zamerané na IT pre
             štátne školy ako nový štandard formálneho vzdelávania. </p>
-        <!-- Chýba obrázok (doplním)  -->
+            <img src="images/kruh.png" height="460px">
     </section>
 
     <!-- Sekcia: Prečo OpenLab? -->
@@ -51,8 +53,8 @@
         <h1>
             <br>Prečo OpenLab?<br>
         </h1>
-        <p>V OpenLabe študentov učíme najnovšie technológie...</p>
-        <img src="HTML/CSS_files/green.svg" alt="Krásny obrázok">
+        <p>V OpenLabe študentov učíme najnovšie technológie. Zároveň im dávame veľkú slobodu, pričom ich vedieme k zodpovednosti a samostatnosti, učíme ich princípy partnerského prístupu, pracovať v tíme, trénujeme ich schopnosti sebareflexie a podnecujeme ich kreativitu. Takto študentov pripravujeme osobnostne aj tech zručnosťami na veľké veci, ktoré môžu v budúcnosti tvoriť.</p>
+        <img src="images/green.svg">
     </section>
 
     <!-- Sekcia: Celospoločenský rozvoj -->
@@ -61,7 +63,7 @@
             <br>Celospoločenský rozvoj<br>
         </h1>
         <p>Osnovy aj učebné materiály pre všetky tech oblasti sú open source. </p>
-        <!-- Chýba obrázok (doplním)  -->
+        <img src="images/pomoc.svg">
     </section>
 
     <!-- Sekcia: Učenie praxou -->
@@ -70,7 +72,7 @@
             <br>Učenie praxou<br>
         </h1>
         <p>Študentov vedieme k tímovému riešeniu problémov.</p>
-        <!-- Chýba obrázok (doplním)  -->
+        <img src="images/taska.svg">
     </section>
 
     <!-- Sekcia: Rozvoj talentu -->
@@ -79,7 +81,6 @@
             <br>Rozvoj talentu<br>
         </h1>
         <p>Vytvárame šikovné tímy schopné riešiť veľké problémy.</p>
-        <!-- Chýba obrázok (doplním)  -->
     </section>
 
     <!-- Sekcia: Naša vízia v Openlabe -->
@@ -92,13 +93,13 @@
 
     <!-- Sekcia: Štatistiky -->
     <section class="statistics-section">
-        <p>6</p>
+        <p><strong>6</strong></p>
         <p>tried</p>
-        <p>267</p>
+        <p><strong>267</strong></p>
         <p>študentov</p>
-        <p>12</p>
+        <p><strong>12</strong></p>
         <p>LabMastrov</p>
-        <p>2</p>
+        <p><strong>2</strong></p>
         <p>školy</p>
     </section>
 
@@ -107,37 +108,50 @@
         <h1><br>V akých Laboch môžeš študovať?<br></h1>
         <h4>HybridLab</h4>
         <p>Študenti sa učia vyvíjať hybridné aplikácie v HTML, PHP, CSS, JavaScript, Ionicu, Vue a OctoberCMS.</p>
-        <!-- Chýba obrázok (doplním)  -->
+        <img src="images/arrow-right.svg">
+        <img src="images/arrow-right-blue.svg">
+
         <h4>GamesLab</h4>
         <p>Študenti vyvíjajú mobilné hry v Unity a GDevelop, učia sa tvoriť 2D grafiku...</p>
-        <!-- Chýba obrázok (doplním)  -->
+        <img src="images/arrow-right.svg">
+        <img src="images/arrow-right-blue.svg">
+
         <h4>AppsLab</h4>
         <p>Študenti sa učia vyvíjať mobilné aplikácie v C# a Xamarin.forms a webové aplikácie v Java a Angular JS. </p>
-        <!-- Chýba obrázok (doplním)  -->
+        <img src="images/arrow-right.svg">
+        <img src="images/arrow-right-blue.svg">
     </section>
 
     <!-- Sekcia: Lokácie -->
     <section class="locations-section">
         <h1> Náchádzame sa na dvoch školách</h1>
-        <!-- Chýba obrázok (doplním)  -->
+        <img src="images/school1.webp">
+
         <p>Hálova 16, Bratislava</p>
         <h4>Stredná Priemyselná Škola Elektrotechnická</h4>
         <a href="https://spsehalova.sk/">https://spsehalova.sk/</a>
-        <!-- Chýba obrázok (doplním)  -->
+        <img src="images/school2.webp">
     </section>
 
     <!-- Sekcia: Hodnotenie OpenLabu študentmi -->
     <section class="student-testimonials-section">
         <h4>Čo si myslia o OpenLabe študenti?</h4>
-        <p>Openlab mi dal neuveriteľné množstvo skúsenosti do života, super ľudí...</p>
+        <p>Openlab mi dal neuveriteľné množstvo skúsenosti do života, super ľudí, s ktorými vďaka stážam pracujem v rovnakej firme a samozrejme mnoho ďalších dôležitých veci pre fungovanie v dnešnej “IT” sfére. Prístup akým sa tu vyučuje je presne taký, aký v dnešnej dobe potrebujeme na stredných školách.</p>
         <p>
             <strong>Marek, </strong>
             HybridLab, IST
         </p> 
-        <!-- Chýba šípky (doplním)  -->
-        <!-- Chýba obrázok (doplním)  -->
-        <!-- Chýba obrázok (doplním)  -->
+        <img src="images/arrow-slide-left.svg">
+        <img src="images/arrow-slide-right.svg">
+        
     </section>
+
+
+    <!-- Sekcia: Fotky_chalani_agreen -->
+    <section class="photoguys">
+        <img src="images/students3.webp" height="460px">
+        <img src="images/p_letter.webp" height="460px">
+    <section>
 
     <!-- Sekcia: Partneri OpenLabu -->
     <section class="partners-section">
@@ -147,20 +161,35 @@
         </h1>
         <h4>LabMastri</h4>
         <p>Odborníci z praxe, ktorí odovzdávajú študentom svoj know-how v roli mentora 5 hodín týždenne celý školský rok.</p>
-        <!-- Chýba šípky (doplním)  -->
+        <img src="images/arrow-right.svg">
+        <img src="images/arrow-right-blue.svg">
+
         <h4>Firmy</h4>
         <p>Technologické firmy sú garantmi obsahu jednotlivých labov, spolupracujú so študentmi na projektoch a v rámci študentských stáží.</p>
-        <!-- Chýba šípky (doplním)  -->
+        <img src="images/arrow-right.svg">
+        <img src="images/arrow-right-blue.svg">
+
         <h4>Školy</h4>
         <p>Stredné odborné školy zamerané na digitálne technológie v jednotlivých regiónoch inovujú svoje technologické vzdelávanie.</p>
-        <!-- Chýba šípky (doplním)  -->
+        <img src="images/arrow-right.svg">
+        <img src="images/arrow-right-blue.svg">
+
         <h4>Študenti</h4>
         <p>Stredoškoláci so záujmom o najnovšie technológie a silnou vnútornou motiváciou učiť sa nové veci a rozvíjať svoje schopnosti.</p>
-        <!-- Chýba šípky (doplním)  -->
+        <img src="images/arrow-right.svg">
+        <img src="images/arrow-right-blue.svg">
     </section>
+
+
+    <!-- Sekcia: Vyjadrenie študentov  -->
+    <section class="openlab-students-talk-about">
+
+
+    </section>
+
+
 </body>
 </html>
-
 
 
 
