@@ -297,15 +297,68 @@
     </section>
 
 
+    <!-- Sekcia: Spoznaj nás  -->
+    <section class="Get to know us">
+        <h3>Spoznaj nás</h3>
+
+        <img src="images/Wanda-2.jpg" height="200px">
+        <p>BOARD MEMBER & EXECUTIVE TEAM</p>
+        <h4>Wanda Pribylincová</h4>
+        <p>CEO</p>
+
+        <img src="images/grigor-ayrumyan.webp" height="200px">
+        <p>BOARD MEMBER & EXECUTIVE TEAM</p>
+        <h4>Grigor Ayrumyan</h4>
+        <p>Co-founder</p>
+
+        <img src="images/Matija.jpg" height="200px">
+        <p>BOARD MEMBER & EXECUTIVE TEAM</p>
+        <h4>Matija Kadanec</h4>
+        <p>Tech Garant pre HybridLab a AppsLab</p>
+
+        <img src="images/jan-kozlej.webp" height="200px">
+        <p>BOARD MEMBER & EXECUTIVE TEAM</p>
+        <h4>Ján Kožlej</h4>
+        <p>Tech Garant pre GamesLab</p>
+
+        <img src="images/veronika-radobicka.webp" height="200px">
+        <p>BOARD MEMBER</p>
+        <h4>Veronika Radobická</h4>
+
+        <img src="images/viktoria-jakubovicova.webp" height="200px">
+        <p>BOARD MEMBER</p>
+        <h4>Viktória Jakubovičová</h4>
+
+    </section>
+
+
+    <!-- Sekcia: Podporte nás   -->
+    <section class="Support_us">
+
+        <img src="images/people.webp" height="460px">
+        <h2>Podporte nás</h2>
+        <p>OpenLab postupne rozširujeme ako neziskový vzdelávací projekt s cieľom otvoriť OpenLab-y zamerané na rôzne IT technológie na čo najväčší počet škôl vo všetkých slovenských regiónoch. Veríme, že OpenLab bude natoľko úspešný, že sa stane štandardom vzdelávania na Slovensku!</p>
+        <a href="Chcem podporiť">Chcem podporiť</a>
+        <img src="images/arrow-right-blue.svg">
+
+    </section>
+
+    <!-- Sekcia: Kto stojí za Openlabom?   -->
+    <section class="Who stands behind Openlab?">
+        <h2>Kto stojí za Openlabom?</h2>
+
+        <img src="images/wezeo.svg" height="150px" width="200px">
+        <img src="images/siemens.svg" height="150px" width="200px">
+        <img src="images/spsit.svg" height="150px" width="200px">
+        <img src="images/spse.svg" height="150px" width="200px">
+        <img src="images/hemisfera.svg" height="150px" width="200px">
+    </section>
+
+
 </body>
 </html>
 
 
-
-
-   
-
-    
 
 
 
