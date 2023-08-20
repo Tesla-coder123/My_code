@@ -238,15 +238,24 @@
     <section class="student-projekt-section">
         <h4>Študentský projekt Mapovanie z HybridLabu</h4>
         <p> <strong>Mapovanie</strong> je hybridná aplikácia, ktorá umožní ľuďom so spoločnými záľubami deliť sa o svoje obľúbené miesta a ukladať ich do komunitnej mapy. Aplikáciu tak môžu využívať ľudia z rôznych komunít. Užívateľ sa jednoducho pridá do skupiny, ktorá ho zaujíma, a následne môže vidieť už “zmapované” miesta alebo pridávať nové. Prehľad príspevkov a skupín mu zobrazuje dostupná mapa. Do aplikácie sa užívateľ vie prihlásiť cez SSO, t.j. prihlásenie pomocou služby tretej strany, napr. Facebook alebo Apple ID účet. Na vývoj študenti použili technológie - Ionic, OctoberCMS a Vue. Aktuálne je aplikácia v MVP verzii.</p>
-        <!-- Pridať video -->
+        
+        <iframe width="636px" height="350px" src="https://www.youtube.com/embed/H1G1pAuRBtY" ></iframe>
 
         <h4>Študentský projekt RealTopia z GamesLabu</h4>
         <p> <strong>RealTopia</strong> je fantasy hra s 2D grafikou, ktorá nesie environmentálne posolstvo. Je v nej zakomponovaných množstvo faktov o ekológii, globalizácii a svete okolo nás. V jadre je jednoduchá Open World stratégia s Resource Managementom a Pixel Art grafikou. Študenti ju vyvíjali v multiplatformovom hernom engine - Unity s využitím jazyku C#. Hra je dostupná pre Android. Tento študentský projekt prebehol v spolupráci s Ambrelou - platformou rozvojových organizácií v rámci ich medzinárodného projektu Bridge 47.</p>
-        <!-- Pridať video -->
+        
+        <iframe width="636px" height="350px" src="https://www.youtube.com/embed/8ZKEpcpHGCw"></iframe>
+        </iframe>
 
         <h4>Študentský projekt RealTopia z GamesLabu</h4>
         <p> <strong>Renmo</strong> je softvérová aplikácia, ktorá slúži ako rezervačný systém. Užívateľ si vie prostredníctvom systému ľahko a rýchlo zarezervovať rôzne služby, napr. objednať sa ku kaderníkovi. V aplikácii si takisto firmy vedia nastaviť detailné informácie o sebe a ponuku svojich služieb. Aplikácia vie uľahčiť prácu aj zamestnancom, ktorí vidia aktívne rezervácie pre daný deň ale aj nasledujúce. Na vývoj študenti použili technológie: MySQL, SpringBoot a Angular.</p>
-        <!-- Pridať video -->
+        
+
+        <div class="video3">
+
+            <iframe width="636px" height="350px" src="https://www.youtube.com/embed/Qg30AVAGo5Y"></iframe>
+        </div>
+
 
         <img src="images/arrow-slide-left.svg"> 
         <img src="images/arrow-slide-right.svg">
@@ -254,26 +263,42 @@
             <a href="Pozrieť si všetky projekty">Pozrieť si všetky projekty</a>
             <img src="images/arrow-right-blue.svg">
         </div>
+        <img src="images/a_letter.png.webp" height="470px">
     
     </section>
 
     <!-- Sekcia: Čím sme výnimoční? -->
     <section class="What makes us special?">
-        <img src="images/a_letter.png.webp" height="470px">
 
-        
+        <img src="images/special1.svg">
+        <h4>Partnerstvo</h4>
+        <p>Dáva študentom slobodu, ktorú vyvažujú zodpovednosťou. Spolupráca LabMastra a študentov je v partnerskej rovine.</p>
 
+        <img src="images/special2.svg">
+        <h4>LabMaster</h4>
+        <p>Je mentor s expertízou v danej oblasti, ktorý nastavuje rámce a sprevádza študentov pri dosahovaní míľnikov.</p>
 
+        <img src="images/special3.svg">
+        <h4>Učebný blok</h4>
+        <p>Je základný dokument, z ktorého sa študenti učia. Obsahuje všetky vzdelávacie podklady pre konkrétnu fázu.</p>
 
+        <img src="images/special4.svg">
+        <h4>Problem driven</h4>
+        <p>Je princíp učenia, vďaka ktorému sú študenti vedení ku kritickému mysleniu s cieľom vyriešiť konkrétne problémy.</p>
 
+        <img src="images/special5.svg">
+        <h4>Project driven</h4>
+        <p>Po teoretickej fáze sú študenti rozdelení do tímov, v ktorých v spolupráci s firmami tvoria konkrétny projekt pre zákazníka.</p>
 
-
-
-
+        <img src="images/special6.svg">
+        <h4>Samoštúdium</h4>
+        <p>Študenti trávia 80% času samoštúdiom a sú vedení k tímovej spolupráci. 20% teórie slúži iba ako odrazový mostík.</p>
 
     </section>
 
 
+</body>
+</html>
 
 
 
