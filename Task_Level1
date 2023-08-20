@@ -185,14 +185,15 @@
 
     <!-- Sekcia: Čo povedali openlabe študenti -->
     <section class="openlab-talk_students">
-        <h4>V OpenLabe sa okrem technologických vedomostí a zručností snažíme rozvíjať aj iné dôležité parametre kvalitných ľudí.</h4>
+        <img src="images/Samuel Uhliar_študent.jpg">
+        
+        <p>
+            Labmastri<strong> v OpenLabe</strong>
+        </p>
         <p>Ako sú zodpovednosť, spoľahlivosť, samostatnosť, ale aj tímovosť a vzájomnú komunikáciu. Prijímame výzvy najmä voči svojím vlastným ja.</p>
         <p>Lenka Kubová</p>
         <p>Hemisfera na SPŠ IT KNM</p>
-        <img src="images/Samuel Uhliar_študent.jpg">
         <img src="images/Lenka Kubová.jpeg" height="470px">
-        <img src="images/firm.png.webp" height="440px">
-        <img src="images/o_letter.png.webp" height="470px">
 
         <p>
             Firmy<strong> v OpenLabe</strong>
@@ -202,11 +203,7 @@
         <img src="images/signature1.webp" height="50px">
         <p>Grigor Ayrumyan</p>
         <p>CEO at WEZEO</p>
-
-        <img src="images/Lenka Kubová.jpeg" height="470px">
-        <img src="images/firm.png.webp" height="440px">
-        <img src="images/Samuel Uhliar_študent.jpg">
-        <img src="images/o_letter.png.webp" height="470px">
+        <img src="images/firm.png.webp" height="470px">
 
         <p>
             Školy<strong> v OpenLabe</strong>
@@ -215,10 +212,7 @@
         <p>Je to náš príspevok ako podnietiť talentované deti, aby na sebe tvrdo makali a už počas štúdia si zarábali programovaním vo firmách a hlavne boli úspešní pri štúdiu na vysokých školách, resp. ich vyhľadávali firmy pre ich kvalitné vzdelanie a prístup k práci. Úprimne si želám, aby škola fungovala ako úspešná, moderná výchovno-vzdelávacia inštitúcia, ale zároveň mala svoju dušu a otvorené srdce pre študentov. Takisto aby mala pedagógov s odvahou a chuťou priniesť do vyučovacieho procesu nové metódy a prístupy.</p>
         <p>Milan Válek</p>
         <p>Riaditeľ SPŠ IT, Kysucké Nové Mesto</p>
-        <img src="images/Samuel Uhliar_študent.jpg">
-        <img src="images/Milan Válek_riaditeľ SPŠ I_T KNM.jpg">
-        <img src="images/firm.png.webp" height="440px">
-        <img src="images/o_letter.png.webp" height="470px">
+        <img src="images/Milan Válek_riaditeľ SPŠ I_T KNM.jpg" height="470px">
 
         <p>
             Študenti<strong> v OpenLabe</strong>
@@ -228,27 +222,46 @@
         <p>Samuel Uhliar</p>
         <p>Študent HybridLabu na SPŠE Hálová 16</p>
         <img src="images/Samuel Uhliar_študent.jpg">
-        <img src="images/Lenka Kubová.jpeg" height="470px">
-        <img src="images/firm.png.webp" height="440px">
-        <img src="images/o_letter.png.webp" height="470px">
+
     </section>
 
 
+
+    <!-- Sekcia: Popis_Študent_proj. -->
+    <section class="description_students">
+        <h4>Pozrite si študentské projekty</h4>
+        <p>Stredoškoláci v OpenLaboch pracujú na reálnych projektoch v spolupráci s firmami pričom získavajú praktické zručnosti a osvojujú si prístup, ktorým neskôr posunú svet technológií a celú spoločnosť vpred.</p>
+        
+    </section>
+
+    <!-- Sekcia: Študentské_projekty -->
+    <section class="student-projekt-section">
+        <h4>Študentský projekt Mapovanie z HybridLabu</h4>
+        <p> <strong>Mapovanie</strong> je hybridná aplikácia, ktorá umožní ľuďom so spoločnými záľubami deliť sa o svoje obľúbené miesta a ukladať ich do komunitnej mapy. Aplikáciu tak môžu využívať ľudia z rôznych komunít. Užívateľ sa jednoducho pridá do skupiny, ktorá ho zaujíma, a následne môže vidieť už “zmapované” miesta alebo pridávať nové. Prehľad príspevkov a skupín mu zobrazuje dostupná mapa. Do aplikácie sa užívateľ vie prihlásiť cez SSO, t.j. prihlásenie pomocou služby tretej strany, napr. Facebook alebo Apple ID účet. Na vývoj študenti použili technológie - Ionic, OctoberCMS a Vue. Aktuálne je aplikácia v MVP verzii.</p>
+        <!-- Pridať video -->
+
+        <h4>Študentský projekt RealTopia z GamesLabu</h4>
+        <p> <strong>RealTopia</strong> je fantasy hra s 2D grafikou, ktorá nesie environmentálne posolstvo. Je v nej zakomponovaných množstvo faktov o ekológii, globalizácii a svete okolo nás. V jadre je jednoduchá Open World stratégia s Resource Managementom a Pixel Art grafikou. Študenti ju vyvíjali v multiplatformovom hernom engine - Unity s využitím jazyku C#. Hra je dostupná pre Android. Tento študentský projekt prebehol v spolupráci s Ambrelou - platformou rozvojových organizácií v rámci ich medzinárodného projektu Bridge 47.</p>
+        <!-- Pridať video -->
+
+        <h4>Študentský projekt RealTopia z GamesLabu</h4>
+        <p> <strong>Renmo</strong> je softvérová aplikácia, ktorá slúži ako rezervačný systém. Užívateľ si vie prostredníctvom systému ľahko a rýchlo zarezervovať rôzne služby, napr. objednať sa ku kaderníkovi. V aplikácii si takisto firmy vedia nastaviť detailné informácie o sebe a ponuku svojich služieb. Aplikácia vie uľahčiť prácu aj zamestnancom, ktorí vidia aktívne rezervácie pre daný deň ale aj nasledujúce. Na vývoj študenti použili technológie: MySQL, SpringBoot a Angular.</p>
+        <!-- Pridať video -->
+
+        <img src="images/arrow-slide-left.svg"> 
+        <img src="images/arrow-slide-right.svg">
+        <div>
+            <a href="Pozrieť si všetky projekty">Pozrieť si všetky projekty</a>
+            <img src="images/arrow-right-blue.svg">
+        </div>
     
+    </section>
 
+    <!-- Sekcia: Čím sme výnimoční? -->
+    <section class="What makes us special?">
+        <img src="images/a_letter.png.webp" height="470px">
 
-</body>
-</html>
-
-
-
-
-
-
-
-
-    
-    
+        
 
 
 
@@ -258,14 +271,7 @@
 
 
 
-    
-    
-
-
-
-
-
-
+    </section>
 
 
 
