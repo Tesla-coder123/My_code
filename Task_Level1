@@ -32,8 +32,8 @@
         </nav>
     </section>
 
-    <!-- Sekcia: Tlačidlo -->
-    <section class="button-section">
+    <!-- Sekcia: Tlačidlo1 -->
+    <section class="button-section1">
         <button>Pridajte sa k nám</button>
     </section>
 
@@ -353,14 +353,105 @@
         <img src="images/spse.svg" height="150px" width="200px">
         <img src="images/hemisfera.svg" height="150px" width="200px">
     </section>
+    
+    <!-- Sekcia: Instagram_obr.   -->
+    <section class="Instagram_pict.">
+
+        <!-- Doplním len neviem zatial ako :)   -->
+
+        <img src="" height="200px">
+        <img src="" height="200px">
+        <img src="" height="200px">
+        <img src="" height="200px">
+        <img src="" height="200px">
+        <img src="" height="200px">
+
+
+    </section>
+
+    <!-- Sekcia: Moderná škola   -->
+    <section class="Modern_School">
+
+        <img src="images/modern.webp" height="470px">
+        <h3>Nie je moderná škola</h3>
+        <h3>Ako moderná škola</h3>
+        <p>Podcast Moderná škola vznikol v spolupráci s Romanom ”Yablkom” Hraškom, kde našim zámerom je rozobrať svet štandardného vzdelávania a spôsob ako môže fungovať moderné vzdelávanie v technológiach.</p>
+        <img src="images/youtube-color.svg">
+        <img src="images/spotify.svg">
+        <img src="images/podcast.svg">
+        <img src="images/google.svg">
+
+    </section>
+
+
+    <!-- Sekcia: Tlačidlo2 -->
+    <section class="button-section2">
+        <button>Moderná škola</button>
+    </section>
+
+
+    <!-- Sekcia:  Ďakujeme za podporu v roku 2022!  -->
+    <section class="Thank you for your support in 2022!">
+
+        <img src="images/support1.svg" height="200px" width="150">
+        <img src="images/support3.svg" height="200px" width="150">
+        <img src="images/support6.svg" height="200px" width="150">
+        <img src="images/support7.svg" height="200px" width="150">
+        <img src="images/superfaktura.png" height="100px">
+        <img src="images/pontis.svg" height="100px">
+        <img src="images/binary-confidence.png" height="100px">
+        <img src="images/kontentino.png" height="100px">
+        <img src="images/pelikan_logo.png" height="100px">
+
+    </section>
+    
+    <!-- Sekcia: email_newsletter  -->
+    <section class="email_newsletter">
+        <h3>Prihláste sa do nášho newslettra a budete mať</h3>
+        <h3>čerstvé informácie o živote v OpenLabe.</h3>
+
+        <form action="url_pre_spracovanie_odberu" method="post">
+            <input type="email" id="email" name="email" placeholder="Váš e-mail" required >
+            <button><img src="images/arrow-right-blue.svg"></button>
+        </form>
+          
+    </section>
+
+
+    <!-- Sekcia: Info_Koniec_Stránky  -->
+    <section class="Info_End_Page">
+
+        <img src="images/openlab-logo.svg">
+        <p>© 2023 Všetky práva vyhradené</p>
+        <p><strong>OPENLAB, o.z.,</strong></p>
+        <a href="info@openlab.sk"></a>
+        <p>IČO: 50764675</p>
+        <p>Pribinova 10, 821 09 Bratislava</p>
+
+        <img src="images/facebook.svg">
+        <img src="images/linkedin.svg">
+        <img src="images/instagram.svg">
+        <img src="images/footer.svg" height="100px">
+
+    </section>
+
+
+
+
+
+
+    
+
+
+
+
+
+
+    
 
 
 </body>
 </html>
-
-
-
-
 
 
 
