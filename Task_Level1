@@ -357,14 +357,12 @@
     <!-- Sekcia: Instagram_obr.   -->
     <section class="Instagram_pict.">
 
-        <!-- Doplním len neviem zatial ako :)   -->
-
-        <img src="" height="200px">
-        <img src="" height="200px">
-        <img src="" height="200px">
-        <img src="" height="200px">
-        <img src="" height="200px">
-        <img src="" height="200px">
+        <img src="images/obrazok1.jpeg" height="200px">
+        <img src="images/obrazok2.jpeg" height="200px">
+        <img src="images/obrazok3.jpeg" height="200px">
+        <img src="images/obrazok4.jpeg" height="200px">
+        <img src="images/obrazok5.jpeg" height="200px">
+        <img src="images/obrazok6.jpeg" height="200px">
 
 
     </section>
@@ -452,6 +450,9 @@
 
 </body>
 </html>
+
+
+
 
 
 
