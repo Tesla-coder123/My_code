@@ -1,0 +1,147 @@
+/* styles.css */
+
+body {
+    font-family: 'SF Pro Display', sans-serif;
+    background-color: #ffffff;
+}
+
+
+/* sekcia-header */
+
+.header-section{
+
+    height: 50px;
+    text-align: center;
+    margin-top: 20px;
+    
+
+}
+
+.header a, header p {
+    display: inline-block;
+    padding: 11px;
+    margin-right: 5px;
+    font-size: 13px;
+    justify-content: center;
+}
+
+
+.header a {
+
+  display: inline-block;
+  text-decoration: none;
+  
+  font-weight: 650;
+  font-size: 12px;
+  color: #989ca2;
+  line-height: 1.1;
+  padding: 6px 10px;
+  vertical-align: middle;
+  
+  width: 165.5px;
+  height: 20px;
+  padding: 6px 10px;
+  
+  border: 1px solid rgba(152, 156, 162, 0.15);
+  border-radius: 32px;
+  position: relative;
+  background-color: rgba(152, 156, 162, 0.15);
+  
+
+}
+
+
+
+.header a:hover, .header a:focus, .header a:active {
+    cursor: pointer;
+}
+  
+.header a img {
+    position: relative;
+    top: 2.5px;
+}
+
+
+.separator {
+    border-top: 1px solid#3597FF; /* Hrúbka a farba čiary */
+    margin: 10px 0; /* Medzera nad a pod čiarou */
+    
+}
+
+.navigation-section {
+    margin-top: 80px; /* Posunutie sekcie nadol o 50px */
+}
+
+
+ul, li,
+.logo {
+  display: inline-block;
+  margin: 12px 0;
+  height: 79px;
+  display: flex;
+  border-bottom: none;
+  align-items: center;
+  margin: 5px auto;
+}
+
+.nv-icon {
+    font-family: "SF Pro Display", sans-serif;
+    font-size: 13px;
+    color: #121a24;
+    font-weight: 620;
+    margin-left: 1rem;
+    text-decoration: none;
+    padding: 9px;
+}
+
+
+.navigation-section nav ul li a {
+    color: rgb(7, 3, 3);
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: color 0.3s;
+    
+}
+
+.navigation-section nav ul li a:hover {
+    color: #3597FF;
+}
+
+.navigation-section nav {
+    margin-right: 69px; /* Upravte hodnotu podľa potreby */
+}
+
+.nv-butn {
+    color: #fff;
+    line-height: 45px;
+    width: 156.5px;
+    height: 45px;
+    text-align: center;
+    border: 1px solid #3597FF;
+    border-radius: 6px;
+    background-color: #3597FF;
+    font-family: "SF Pro Display", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    
+}
+.nv-butn:hover, .nv-butn:focus, .nv-butn:active {
+    cursor: pointer;
+}
+  
+.nv-butn {
+    margin-right: 1rem;
+}
+  
+.nv-butn {
+    float: right;
+    margin-top: -130px;
+    
+}
+
+.navigation-section .nv-butn {
+    margin-left: 100px; /* Upravte hodnotu podľa potreby */
+}
+
+
+
