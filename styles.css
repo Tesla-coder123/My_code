@@ -26,40 +26,48 @@ body {
 }
 
 
+
+.header {
+    text-align: center; /* Zarovnanie textu na stred */
+}
+
+
+
 .header a {
 
-  display: inline-block;
-  text-decoration: none;
+    display: inline-block;
+    text-decoration: none;
   
-  font-weight: 650;
-  font-size: 12px;
-  color: #989ca2;
-  line-height: 1.1;
-  padding: 6px 10px;
-  vertical-align: middle;
+    font-weight: 650;
+    font-size: 12px;
+    color: #989ca2;
+    line-height: 1.1;
+    padding: 6px 10px;
+    vertical-align: middle;
   
-  width: 165.5px;
-  height: 20px;
-  padding: 6px 10px;
+    width: 165.5px;
+    height: 20px;
+    padding: 6px 10px;
   
-  border: 1px solid rgba(152, 156, 162, 0.15);
-  border-radius: 32px;
-  position: relative;
-  background-color: rgba(152, 156, 162, 0.15);
-  
-
-}
-
-
-
-.header a:hover, .header a:focus, .header a:active {
-    cursor: pointer;
-}
-  
-.header a img {
+    border: 1px solid rgba(152, 156, 162, 0.15);
+    border-radius: 32px;
     position: relative;
-    top: 2.5px;
+    background-color: rgba(152, 156, 162, 0.15);
+  
+
 }
+
+.header img{
+
+    margin-left: -32px; /* Posunutie obrázka doľava o 10px */
+
+}
+
+
+
+
+
+  
 
 
 .separator {
@@ -69,19 +77,21 @@ body {
 }
 
 .navigation-section {
-    margin-top: 80px; /* Posunutie sekcie nadol o 50px */
+    margin-top: 80px; /* Posunutie sekcie nadol o 80px */
 }
 
 
 ul, li,
 .logo {
-  display: inline-block;
-  margin: 12px 0;
-  height: 79px;
-  display: flex;
-  border-bottom: none;
-  align-items: center;
-  margin: 5px auto;
+
+
+    display: inline-block;
+    margin: 12px 0;
+    height: 79px;
+    display: flex;
+    border-bottom: none;
+    align-items: center;
+    margin: 5px auto;
 }
 
 .nv-icon {
@@ -100,6 +110,7 @@ ul, li,
     text-decoration: none;
     padding: 10px 20px;
     transition: color 0.3s;
+    font-size: 12px;
     
 }
 
@@ -107,40 +118,50 @@ ul, li,
     color: #3597FF;
 }
 
+.navigation-section {
+    margin-right: -20px; /* Posunutie celej sekcie doľava o 20px */
+}
+  
 .navigation-section nav {
-    margin-right: 69px; /* Upravte hodnotu podľa potreby */
+    margin-right: 20px; /* Posunutie obsahu nav elementu doľava o 20px */
+}
+  
+.nv-butn button {
+    font-family: "SF Pro Display", sans-serif;
+    font-size: 14px;   /* Zmena veľkosti písma v tlačítku */
+    width: 156px;      /* Zmena šírky tlačítka */
+    height: 45px;      /* Zmena výšky tlačítka */
+    background-color: #3597ff; /* Zmena farby pozadia */
+    color: #ffffff;    /* Zmena farby textu */
+    border: 1px solid #3597ff ; /* Odstránenie okraja tlačítka */
+    border-radius: 7px; /* Zakrivené rohy tlačítka */
+    cursor: pointer;   /* Zmena kurzoru na rukoväť */
 }
 
-.nv-butn {
-    color: #fff;
-    line-height: 45px;
-    width: 156.5px;
-    height: 45px;
-    text-align: center;
-    border: 1px solid #3597FF;
-    border-radius: 6px;
-    background-color: #3597FF;
-    font-family: "SF Pro Display", sans-serif;
-    font-size: 14px;
-    font-weight: 600;
-    
-}
-.nv-butn:hover, .nv-butn:focus, .nv-butn:active {
-    cursor: pointer;
-}
-  
-.nv-butn {
-    margin-right: 1rem;
-}
-  
-.nv-butn {
+
+.nv-butn button {
     float: right;
     margin-top: -130px;
     
 }
 
-.navigation-section .nv-butn {
+.navigation-section .nv-butn button {
     margin-left: 100px; /* Upravte hodnotu podľa potreby */
+
+}
+
+
+.why-openlab-section h2  {
+
+    text-align: center;
+    font-size: calc(1.375rem + 1.5vw);
+    
+}
+
+.why-openlab-section p  {
+
+    text-align: center;
+    color: #566b8d;
 }
 
 
