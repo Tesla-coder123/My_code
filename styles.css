@@ -95,7 +95,6 @@ ul, li,
 }
 
 
-
 .nv-icon {
     font-family: "SF Pro Display", sans-serif;
     font-size: 13px;
@@ -217,6 +216,17 @@ ul, li,
     
 }
 
+
+
+.normal {
+    font-weight: normal;
+}
+
+.highlight {
+    font-weight: bold;
+}
+
+
 .why-openlab-section p  {
 
     text-align: center;
@@ -224,7 +234,8 @@ ul, li,
 }
 
 .social-development-section {
-    margin-left: 20px; /* Príklad hodnoty, ktorá posunie sekciu doprava */
+    margin-left: 50px; /* Príklad hodnoty, ktorá posunie sekciu doprava */
+    margin-left: 250px;
     padding: 59px 0;
     font-family: "SF Pro Display", sans-serif;
     height: 421px;
@@ -238,13 +249,70 @@ ul, li,
 
 
 .learning-by-doing-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh; /* Nastaví výšku sekcie na 100% výšky zobrazenia */
-    text-align: center;
+    
+    margin-top: -480px;
+    margin-left: 650px; /* Príklad hodnoty, ktorá posunie sekciu doprava */
+
+
 }
+
+.learning-by-doing-section p {
+    color: #566b8d;
+}
+
+
+
+.talent-development-section{
+
+    
+    margin-right: 50px;
+
+    margin-left: 970px; /* Príklad hodnoty, ktorá posunie sekciu doprava */
+    margin-top: -197px;
+    
+
+}
+
+
+.talent-development-section p {
+    color: #566b8d;
+}
+
+
+.our-vision-section {
+    margin-top: 190px; /* Prispôsobte hodnotu podľa potreby */
+}
+
+.our-vision-section p {
+
+    color: #566b8d;
+    line-height: 1.3; /* Prispôsobte hodnotu podľa potreby */
+    
+}
+
+.our-vision-section h2 {
+    margin-bottom: 40px; /* Prispôsobte hodnotu medzery podľa potreby */
+    font-size: calc(1.375rem + 1.5vw);
+}
+
+.normal {
+    font-weight: normal;
+}
+
+.highlight {
+    font-weight: bold;
+}
+
+.our-vision-section {
+    margin-left: 80px; /* Prispôsobte hodnotu posunu podľa potreby */
+}
+
+
+
+
+
+  
+
 
 
 
