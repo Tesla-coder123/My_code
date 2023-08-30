@@ -6,7 +6,7 @@ body {
 }
 
 
-/* sekcia-header */
+/* sekcia-header začiatok */
 
 .header-section{
 
@@ -63,13 +63,13 @@ body {
 
 }
 
-
+/* sekcia-header koniec */
 
 
 
   
 
-
+/* sekcia - navigácia začiatok */
 .separator {
     border-top: 1px solid#d7eaff; /* Hrúbka a farba čiary */
     margin: 10px 0; /* Medzera nad a pod čiarou */
@@ -153,9 +153,12 @@ ul, li,
     margin-left: 100px; /* Upravte hodnotu podľa potreby */
 
 }
+/* sekcia - navigácia koniec */
 
 
 
+
+/* sekcia - inštitút začiatok */
 .institute-senction {
     position: relative;
     z-index: -1;
@@ -208,8 +211,12 @@ ul, li,
     background-repeat: no-repeat;
     background-position: 80% 15px;
 }
+/* sekcia - inštitút koniec */
   
 
+
+
+/* sekcia - prečo openlab začiatok */
 .why-openlab-section h2  {
 
     text-align: center;
@@ -233,7 +240,12 @@ ul, li,
     text-align: center;
     color: #566b8d;
 }
+/* sekcia - prečo openlab koniec */
 
+
+
+
+/* sekcia - spoloč. rozvoj začiatok */
 .social-development-section {
     margin-left: 50px; /* Príklad hodnoty, ktorá posunie sekciu doprava */
     margin-left: 250px;
@@ -248,8 +260,12 @@ ul, li,
     color: #566b8d;
     
 }
+/* sekcia - spoloč. rozvoj koniec */
 
 
+
+
+/* sekcia - spoloč. rozvoj začiatok */
 .learning-by-doing-section {
     
     margin-top: -480px;
@@ -262,9 +278,12 @@ ul, li,
     color: #566b8d;
     
 }
+/* sekcia - spoloč. rozvoj koniec */
 
 
 
+
+/* sekcia - talent začiatok */
 .talent-development-section{
 
     
@@ -281,8 +300,13 @@ ul, li,
     color: #566b8d;
     
 }
+/* sekcia - talent koniec */
 
 
+
+
+
+/* sekcia - naša vízia začiatok */
 .our-vision-section {
     margin-top: 190px; /* Prispôsobte hodnotu podľa potreby */
 }
@@ -311,9 +335,12 @@ ul, li,
 .our-vision-section {
     margin-left: 80px; /* Prispôsobte hodnotu posunu podľa potreby */
 }
+/* sekcia - naša vízia koniec */
 
 
 
+
+/* sekcia -  štatistika začiatok */
 .statistics-section {
     display: flex;
     flex-direction: column;
@@ -483,14 +510,16 @@ ul, li,
 
 
 }
+/* sekcia -  štatistika koniec */
 
+
+
+/* sekcia -  labovia začiatok */
 .labs-section{
 
     margin-top: -460px;
 
 }
-
-
 
 .normal {
     font-weight: normal;
@@ -499,10 +528,13 @@ ul, li,
 .highlight {
     font-weight: bold;
 }
+/* sekcia -  labovia koniec */
 
 
 
 
+
+/* sekcia -  lokácie začiatok */
 .locations-section h2{
     text-align: center;
     font-size: calc(1.375rem + 1.5vw);
@@ -546,6 +578,8 @@ ul, li,
 .locations-section .skola1 a{
 
     margin-left: 365px;
+    font-size: 1.125rem !important;
+    text-decoration: none;
     color: #3597ff
     
 
@@ -576,8 +610,11 @@ ul, li,
 
 .locations-section .skola2 a{
 
-    margin-left: 365px;
+    margin-left: 450px;
+    font-size: 1.125rem !important;
+    text-decoration: none;
     color: #3597ff
+    
     
     
 
@@ -587,8 +624,144 @@ ul, li,
     position: relative;
     top: -50px; /* Alebo iná vhodná hodnota */
     left: -50px;
-  }
+}
+/* sekcia -  lokácie koniec */  
+
+
+
+
+
+/* sekcia -  Spoznájte nás začiatok */  
+.Get-to-know-us h3{
+
+    font-size: calc(1.375rem + 1.5vw);
+    text-align: center;
+
+}
+
+.Get-to-know-us{
+
+    margin-top: 100px ;
+
+}
+
+
   
+.prve6 {
+    display: flex;
+    justify-content: flex-start; /* Upravujeme zarovnanie na začiatok */
+    flex-wrap: wrap; /* Obrázky budú prelomiť na nový riadok */
+    gap: 10px; /* Menšia medzera medzi obrázkami */
+    margin-bottom: 20px;
+    margin-left: 35px;
+}
+  
+.clen {
+    flex: 0 0 calc(23% - 10px); /* Úprava šírky s menšou medzerou */
+    margin-right: 10px;
+    margin-left: 12px;
+    
+    
+}
+  
+.clen img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Prispôsobte hodnotu podľa vášho vkusu */
+}
+  
+.clen h4 {
+    margin-top: 10px;
+}
+
+.prve6 p {
+
+    color: #566b8d; 
+    margin-top: -25px;
+
+
+}
+
+.prve6 h6 {
+
+    color: #566b8d;
+    font-size: 14px;
+    margin-top: 7px;
+
+
+}
+
+.prve6 h4 {
+
+    font-size: 1.25rem;
+    margin-top: -10px;
+
+}
+    
+
+
+
+  
+
+  
+/* Môžete pridať ďalšie štýly podľa vašich preferencií */
+  
+
+
+
+
+/* sekcia -  Podporte nás začiatok */  
+
+.Support_us .pomoc-pic {
+
+    margin-left: 50px;
+    
+
+
+}
+
+.Support_us .together {
+
+    margin-top: -350px ;
+    margin-left: 750px;
+
+
+
+
+}
+
+.Support_us .together h2{
+
+    font-size: calc(1.325rem + .9vw);
+}
+
+
+.Support_us .together p{
+
+    color: #566b8d; 
+
+}
+
+.Support_us .together a{
+
+    color: #3597ff !important;
+    text-decoration: none;
+
+    
+}
+/* sekcia -  Podporte nás koniec */  
+
+
+
+/* sekcia -  Kto stojí za openlabom začiatok */  
+.Who-stands-behind-Openlab {
+
+    margin-top: 300px;
+
+}
+
+ 
+
 
 
 
