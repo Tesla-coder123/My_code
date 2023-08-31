@@ -631,6 +631,71 @@ ul, li,
 
 
 
+/* sekcia -  čim sme výnimočný? začiatok */  
+
+.What-makes-us-special h2 {
+
+    text-align: center;
+    font-size: calc(1.375rem + 1.5vw);
+
+
+}
+
+
+.cast-row {
+    display: flex;
+    justify-content: flex-start; /* Upravujeme zarovnanie na začiatok */
+    flex-wrap: wrap; /* Obrázky budú prelomiť na nový riadok */
+    gap: 10px; /* Menšia medzera medzi obrázkami */
+    margin-bottom: 20px;
+    margin-left: 35px;
+}
+  
+.cast {
+    flex: 0 0 calc(23% - 10px); /* Úprava šírky s menšou medzerou */
+    margin-right: 10px;
+    margin-left: 12px;
+    
+    
+}
+  
+.cast img {
+    height: auto;
+    
+}
+
+.What-makes-us-special .cast-row .cast{
+
+    margin-left: 85px;
+
+}
+
+.What-makes-us-special .cast-row .cast h4 {
+
+    font-size: 1.25rem;
+    
+}
+
+.What-makes-us-special .cast-row .cast p {
+
+    color: #566b8d;
+}
+
+.What-makes-us-special h2 {
+
+    
+    margin-top: -30px ;
+    
+    
+}
+
+/* sekcia -  čim sme výnimočný? koniec */  
+
+
+
+
+
+
 /* sekcia -  Spoznájte nás začiatok */  
 .Get-to-know-us h3{
 
@@ -701,11 +766,20 @@ ul, li,
 
 
 
+
+
+
+
   
 
   
-/* Môžete pridať ďalšie štýly podľa vašich preferencií */
+
   
+
+
+
+
+
 
 
 
@@ -760,19 +834,28 @@ ul, li,
 
 }
 
+.Who-stands-behind-Openlab h2 {
+
+    margin-left: 80px;
+    font-size: calc(1.375rem + 1.5vw);
+
+}
  
+.Who-stands-behind-Openlab .image-row1{
 
+    margin-top: -190px;
+    margin-left: 600px;
+    display: flex;
+    gap: 100px;
+    
+}
 
-
-
-
-
-  
-
-
-
-
-
+.Who-stands-behind-Openlab .image-row2{
+    margin-left: 730px;
+    margin-top: -80px;
+    display: flex;
+    gap: 45px;
+}
 
 
   
