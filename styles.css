@@ -140,9 +140,6 @@ ul, li,
     cursor: pointer;   /* Zmena kurzoru na rukoväť */
 }
 
-
-
-
 .nv-butn button {
     float: right;
     margin-top: -130px;
@@ -224,8 +221,6 @@ ul, li,
     
 }
 
-
-
 .normal {
     font-weight: normal;
 }
@@ -255,7 +250,6 @@ ul, li,
     text-align: left;
 }
 
-
 .social-development-section p {
     color: #566b8d;
     
@@ -283,6 +277,7 @@ ul, li,
 
 
 
+
 /* sekcia - talent začiatok */
 .talent-development-section{
 
@@ -295,12 +290,12 @@ ul, li,
 
 }
 
-
 .talent-development-section p {
     color: #566b8d;
     
 }
 /* sekcia - talent koniec */
+
 
 
 
@@ -340,6 +335,13 @@ ul, li,
 
 
 
+
+
+
+
+
+
+
 /* sekcia -  štatistika začiatok */
 .statistics-section {
     display: flex;
@@ -362,12 +364,6 @@ ul, li,
     font-size: 90px;
     margin-left: 150px;
     margin-top: 60px;
-
-    
-
-
-
-    
 }
 
 
@@ -376,19 +372,7 @@ ul, li,
     margin-left: 165px;
     margin-top: -100px;
     font-size: 18px;
-
-
-
-
-    
 }
-
-
-
-
-
-
-
 
 .twohundred-class {
 
@@ -401,7 +385,6 @@ ul, li,
     width: 233px;
     height: 183px;
     border-radius: 4px;
-    
 }
 
 .twohundred-class .two-hundred {
@@ -409,8 +392,6 @@ ul, li,
     font-size: 90px;
     margin-left: 50px;
     margin-top: 60px;
-
-    
 }
 
 
@@ -419,12 +400,7 @@ ul, li,
     margin-left: 135px;
     margin-top: -100px;
     font-size: 18px;
-    
 }
-
-
-
-
 
 .twelve-class {
 
@@ -438,9 +414,6 @@ ul, li,
     width: 233px;
     height: 183px;
     border-radius: 4px;
-
-
-
 }
 
 
@@ -449,9 +422,6 @@ ul, li,
     font-size: 90px;
     margin-left: 100px;
     margin-top: 60px;
-
-
-    
 }
 
 .twelve-class .labmasters{
@@ -460,13 +430,7 @@ ul, li,
     margin-top: -100px;
     font-size: 18px;
 
-
-
-
 }
-
-
-
 
 .two-class {
 
@@ -481,11 +445,6 @@ ul, li,
     width: 233px;
     height: 183px;
     border-radius: 4px;
-
-
-
-
-
 }
 
 .two-class .two{
@@ -493,9 +452,6 @@ ul, li,
     font-size: 90px;
     margin-left: 150px;
     margin-top: 60px;
-
-
-
 }
 
 .two-class .schools{
@@ -504,13 +460,11 @@ ul, li,
     margin-left: 155px;
     margin-top: -100px;
     font-size: 18px;
-
-    
-
-
-
 }
 /* sekcia -  štatistika koniec */
+
+
+
 
 
 
@@ -529,6 +483,9 @@ ul, li,
     font-weight: bold;
 }
 /* sekcia -  labovia koniec */
+
+
+
 
 
 
@@ -560,9 +517,6 @@ ul, li,
 
 }
 
-
-
-
 .locations-section .skola1 p{
 
     margin-left: 0px;
@@ -589,12 +543,6 @@ ul, li,
     position: relative;
     top: -50px; /* Alebo iná vhodná hodnota */
 }
-
-
-
-
-
-
 
 .locations-section .skola2 p{
 
@@ -626,6 +574,7 @@ ul, li,
     left: -50px;
 }
 /* sekcia -  lokácie koniec */  
+
 
 
 
@@ -688,8 +637,9 @@ ul, li,
     
     
 }
-
 /* sekcia -  čim sme výnimočný? koniec */  
+
+
 
 
 
@@ -710,8 +660,6 @@ ul, li,
 
 }
 
-
-  
 .prve6 {
     display: flex;
     justify-content: flex-start; /* Upravujeme zarovnanie na začiatok */
@@ -762,7 +710,7 @@ ul, li,
     margin-top: -10px;
 
 }
-    
+/* sekcia -  Spoznájte nás koniec */  
 
 
 
@@ -785,7 +733,6 @@ ul, li,
 
 
 /* sekcia -  Podporte nás začiatok */  
-
 .Support_us .pomoc-pic {
 
     margin-left: 50px;
@@ -827,6 +774,9 @@ ul, li,
 
 
 
+
+
+
 /* sekcia -  Kto stojí za openlabom začiatok */  
 .Who-stands-behind-Openlab {
 
@@ -857,8 +807,201 @@ ul, li,
     gap: 45px;
 }
 
+.Who-stands-behind-Openlab{
 
-  
+    margin-bottom: 100px;
+}
+
+.Instagram_pict {
+
+    margin-bottom: 250px;
+
+
+
+}
+/* sekcia -  Kto stojí za openlabom koniec */
+
+
+
+
+
+/* sekcia -  Moderná škola začiatok */
+.Modern_School .prva1 h2 {
+
+    margin-left: 80px;
+    font-size: calc(1.375rem + 1.5vw);
+
+
+}
+
+.Modern_School .prva1 p {
+
+    color: #566b8d; 
+    margin-left: 80px;
+    line-height: 1.2;
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    
+
+
+}
+
+
+.Modern_School .prva1 img {
+
+    margin-left: 730px;
+    margin-top: -230px;
+}
+
+
+.Modern_School .prva2 {
+
+    margin-left: 80px;
+    margin-top: -110px;
+    margin-bottom: 15px;
+}
+
+.button-section2 button {
+
+    font-family: "SF Pro Display", sans-serif;
+    font-size: 14px;   /* Zmena veľkosti písma v tlačítku */
+    width: 180px;      /* Zmena šírky tlačítka */
+    height: 54px;      /* Zmena výšky tlačítka */
+    margin-left: 80px;
+    background-color: #3597ff; /* Zmena farby pozadia */
+    color: #ffffff;    /* Zmena farby textu */
+    border: 1px solid #3597ff ; /* Odstránenie okraja tlačítka */
+    border-radius: 6px; /* Zakrivené rohy tlačítka */
+    cursor: pointer;   /* Zmena kurzoru na rukoväť */
+
+}
+/* sekcia -  Moderná škola koniec */
+
+
+
+
+
+/* sekcia -  Ďakujeme za podporu v roku 2022! začiatok */
+.Thank-you-for-your-support-in-2022{
+
+    margin-top: 200px;
+
+}
+
+.Thank-you-for-your-support-in-2022 h2{
+    text-align: center;
+    font-size: calc(1.375rem + 1.5vw);
+}
+
+
+.Thank-you-for-your-support-in-2022 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.Thank-you-for-your-support-in-2022 .part1 {
+    display: flex;
+    gap: 50px; /* Medzera medzi obrázkami */
+}
+
+.Thank-you-for-your-support-in-2022 .part2 {
+    display: flex;
+    gap: 250px; /* Medzera medzi obrázkami */
+}
+
+.Thank-you-for-your-support-in-2022 .part1 img,
+.Thank-you-for-your-support-in-2022 .part2 img {
+    margin: 0; /* Odstrániť predvolené okraje obrázkov */
+}
+
+
+.Thank-you-for-your-support-in-2022 .part1 .img-rsc{
+    margin-top: 70px;
+}
+
+
+.Thank-you-for-your-support-in-2022 .part1 .img-spr{
+    margin-top: 60px;
+}
+
+.Thank-you-for-your-support-in-2022 .part1 .img-pon {
+    margin-top: 40px;
+}
+
+.Thank-you-for-your-support-in-2022 .part2 .img-bnr{
+    margin-top: -24px;
+    
+    
+}
+
+.Thank-you-for-your-support-in-2022 .part2{
+    margin-bottom: 200px;
+
+}
+/* sekcia -  Ďakujeme za podporu v roku 2022! koniec */
+
+
+
+
+
+
+/* sekcia - email_newsletter začiatok */
+
+
+.email_newsletter{
+
+    margin-bottom: 200px;
+
+
+}
+.email_newsletter h2 {
+
+    font-size: 1.25rem;
+    margin-left: 150px; 
+    
+
+}
+
+.email_newsletter input[type="email"] {
+    width: 35%; /* Nastaví šírku inputu na 100% šírky rodičovského kontajnera */
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 60px;
+    border-radius: 6px;
+    border: none !important;
+}
+
+.email_newsletter input[type="email"] {
+    margin-left: 700px;
+    position: relative;
+    top: -60px; /* Posunie input vyššie o 10 pixelov */
+    
+    
+}
+
+.email_newsletter button {
+    position: relative;
+    top: -57px; /* Posunie button vyššie o 10 pixelov */
+    right: 40px;
+    border: none;
+    background: white;
+}
+
+.email_newsletter {
+
+    background-color: #d7eaff !important;
+    padding-top: 50px; 
+    padding-bottom: 15px;
+    padding-left: 20px; 
+    padding-right: 20px; 
+    border-radius: 6px;
+
+    
+}
+
 
 
 
