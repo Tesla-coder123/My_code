@@ -6,6 +6,8 @@ body {
 }
 
 
+
+
 /* sekcia-header začiatok */
 
 .header-section{
@@ -81,12 +83,17 @@ body {
 }
 
 
-ul, li,
-.logo {
+ul {
+    list-style-type: none;
+    padding: 0; /* Odstráni vnútorný padding zoznamu */
+}
 
-
+li {
     display: inline-block;
-    margin: 12px 0;
+    margin-right: 5px; /* Upraví medzeru medzi jednotlivými položkami */
+}
+
+.logo {
     height: 79px;
     display: flex;
     border-bottom: none;
@@ -94,17 +101,15 @@ ul, li,
     margin: 5px auto;
 }
 
-
-
 .nv-icon {
     font-family: "SF Pro Display", sans-serif;
-    font-size: 13px;
+    font-size: 16px;
     color: #121a24;
     font-weight: 620;
-    margin-left: 1rem;
     text-decoration: none;
-    padding: 9px;
+    padding: 9px 0; /* Upraví vnútorný padding položky */
 }
+
 
 
 .navigation-section nav ul li a {
@@ -140,14 +145,29 @@ ul, li,
     cursor: pointer;   /* Zmena kurzoru na rukoväť */
 }
 
+.be-list {
+    text-align: center; /* Zarovná celý zoznam doprava */
+    margin-right: 240px;
+    margin-top: -110px;
+    margin-bottom: 50px;
+}
+
 .nv-butn button {
     float: right;
-    margin-top: -130px;
+    margin-top: -80px;
     
+
 }
 
 .navigation-section .nv-butn button {
     margin-left: 100px; /* Upravte hodnotu podľa potreby */
+
+}
+
+
+.img-open{
+    margin-top: 50px;
+    margin-left: 40px;
 
 }
 /* sekcia - navigácia koniec */
@@ -464,24 +484,97 @@ ul, li,
 /* sekcia -  štatistika koniec */
 
 
+/* Updated CSS for the "Labs" section */
+
+
 
 
 
 
 /* sekcia -  labovia začiatok */
-.labs-section{
 
-    margin-top: -460px;
-
+.labs-part {
+    font-family: "SF Pro Display", sans-serif;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    height: 240px;
+    padding: 24px 0;
+    margin: 50px auto;
+    margin-top: -400px;
 }
-
-.normal {
+  
+  
+.labs-part .part-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 35%;
+    margin-left: 90px;
+}
+  
+.labs-part .part-right {
+    display: flex;
+    flex-direction: row;
+    width: 65%;
+}
+  
+.labs-part h1, .labs-part h4 {
     font-weight: normal;
+    font-size: 40px;
+    color: #212529;
+    margin: 0 0 8px 0;
+}
+  
+.labs-part p, .labs-part h4, .labs-part img {
+    font-size: 20px;
+    padding: 0 48px;
+}
+  
+.labs-part img {
+    height: 15px;
+    width: 28px;
+}
+  
+.labs-part .arrow-blue {
+    display: none;
+}
+  
+.labs-part p {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    color: #566b8d;
+    min-height: 130px;
+    margin: 0 0 10px 0;
+}
+  
+.labs-part article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 33%;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+  
+.labs-part article:hover, .labs-part article:focus, .labs-part article:active {
+    box-shadow: 0px 0px 10px rgba(197, 197, 197, 0.61);
+}
+  
+.labs-part article:hover .arrow-blue, .labs-part article:focus .arrow-blue, .labs-part article:active .arrow-blue {
+    display: block;
+}
+  
+.labs-part article:hover .arrow, .labs-part article:focus .arrow, .labs-part article:active .arrow {
+    display: none;
 }
 
-.highlight {
-    font-weight: bold;
+/* Hover efekt na obrázek šipky - změna barvy na modrou */
+.labs-part article:hover img {
+    filter: brightness(1.5); /* Zvýraznění obrázku šipky na hover */
+    color: blue !important; /* Změna barvy obrázku šipky na modrou na hover s !important */
 }
+  
 /* sekcia -  labovia koniec */
 
 
@@ -580,12 +673,22 @@ ul, li,
 
 
 
-/* sekcia -  čim sme výnimočný? začiatok */  
+/* sekcia -  čim sme výnimočný? začiatok */ 
+
+
+.separator {
+    border-top: 1px solid#d7eaff; /* Hrúbka a farba čiary */
+    margin: 10px 0; /* Medzera nad a pod čiarou */
+    
+}
+
 
 .What-makes-us-special h2 {
 
     text-align: center;
     font-size: calc(1.375rem + 1.5vw);
+
+
 
 
 }
@@ -633,7 +736,7 @@ ul, li,
 .What-makes-us-special h2 {
 
     
-    margin-top: -30px ;
+    margin-top: 90px ;
     
     
 }
@@ -647,6 +750,13 @@ ul, li,
 
 
 /* sekcia -  Spoznájte nás začiatok */  
+
+.separator {
+    border-top: 1px solid#d7eaff; /* Hrúbka a farba čiary */
+    margin: 10px 0; /* Medzera nad a pod čiarou */
+    
+}
+
 .Get-to-know-us h3{
 
     font-size: calc(1.375rem + 1.5vw);
@@ -711,21 +821,6 @@ ul, li,
 
 }
 /* sekcia -  Spoznájte nás koniec */  
-
-
-
-
-
-
-
-  
-
-  
-
-  
-
-
-
 
 
 
@@ -820,6 +915,49 @@ ul, li,
 
 }
 /* sekcia -  Kto stojí za openlabom koniec */
+
+
+
+
+
+/* sekcia -  instagram foto začiatok */
+
+.Instagram_pict .ftky {
+    width: 100% !important;
+    height: auto !important; /* Upravit na auto, aby se zachoval poměr stran */
+    position: relative;
+    display: flex;
+    flex-direction: row; /* Vodorovný směr */
+    align-items: center;
+    justify-content: center;
+    overflow: visible;
+    background-color: var(--sli-grey);
+}
+
+/* Nastavit maximální výšku obrázků */
+.Instagram_pict .ftky img {
+    max-height: 220px; /* Zde můžete upravit maximální výšku podle svých potřeb */
+    max-width: 100%; /* Omezit maximální šířku na 100% */
+    height: auto; /* Udržet původní poměr stran */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -948,9 +1086,8 @@ ul, li,
 
 
 
+
 /* sekcia - email_newsletter začiatok */
-
-
 .email_newsletter{
 
     margin-bottom: 200px;
@@ -1000,6 +1137,52 @@ ul, li,
     border-radius: 6px;
 
     
+}
+/* sekcia - email_newsletter koniec */
+
+
+
+
+/* sekcia - Info_Koniec_Stránky začiatok */
+
+.Info_End_Page .zlt-fot {
+
+    margin-left: 1370px;
+    margin-top: -50px;
+    
+}
+
+.Info_End_Page .obr3{
+
+    margin-left: 1250px;
+    margin-top: -30px;
+}
+
+.vst-dkop p,
+.vst-dkop a {
+    display: inline-block; /* Nastaví zobrazovanie na inline-block */
+    margin-right: 120px; /* Voliteľne: pridá medzeru medzi jednotlivými položkami */
+    font-size: 13px;
+    color: #566b8d;
+
+}
+
+
+
+.obr-ico img,
+.obr-ico p {
+    display: inline-block; /* Nastaví zobrazovanie na inline-block */
+    vertical-align: middle; /* Umiestni elementy vertikálne do stredu riadka */
+    margin-right: 293px;
+    font-size: 13px;
+    color: #566b8d;
+
+}
+
+.obr-ico,
+.vst-dkop{
+
+    margin-left: 80px;
 }
 
 
