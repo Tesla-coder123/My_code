@@ -673,6 +673,138 @@ li {
 
 
 
+/* sekcia -  Čo si myslia študenti začiatok */
+
+
+/* Štýly pre hlavnú sekciu */
+.hodnotenie-open {
+    font-family: "SF Pro Display", sans-serif;
+    text-align: left;
+    min-height: 556.656px;
+    margin-top: 48px;
+    background-color: #f3f9ff;
+    position: relative;
+    z-index: -1;
+}
+  
+/* Štýly pre nadpis v hlavnej sekcii */
+.hodnotenie-open h1 {
+    margin-left: 80px;
+    font-weight: normal;
+    font-size: 40px;
+}
+  
+/* Štýly pre textový popis v hlavnej sekcii */
+.hodnotenie-open .review {
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+    font-size: 14px;
+    font-weight: bold;
+    color: #566b8d;
+    padding: 0 15.766px;
+    padding-top: 30px;
+    position: relative;
+    margin-left: 77px;
+    margin-top: -20px;
+}
+  
+/* Štýly pre ikonu citátu v textovom popise */
+.hodnotenie-open .review::before {
+    content: url("https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/quote.svg");
+    position: absolute;
+    top: 240px;
+    left: 0px;
+}
+  
+/* Štýly pre kontajner obsahujúci text a obrázok */
+.hodnotenie-open .cantainer {
+    display: flex;
+    flex-direction: row;
+}
+  
+/* Štýly pre ľavý článok */
+.hodnotenie-open .sixth-left {
+    width: 526px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+  
+/* Štýly pre názov a informácie o autorovi */
+.hodnotenie-open .six-article-nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+  
+.hodnotenie-open .six-article-nav p.name {
+    letter-spacing: 1px;
+    line-height: 1.5rem;
+    font-size: 14px;
+    font-weight: normal;
+    color: #566b8d;
+    margin-left: 77px;
+    
+}
+
+.cstr1{
+
+    margin-left: 20px;
+}
+  
+.hodnotenie-open .six-article-nav p.name::before {
+    content: url("https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/icon-person.svg");
+    position: relative;
+    top: 10px;
+}
+  
+/* Štýly pre tlačidlá pre prechod medzi obrázkami */
+.hodnotenie-open .six-article-nav .buttons {
+    align-self: center;
+}
+
+/* Štýly pre oba tlačidlá šípok */
+.hodnotenie-open .six-article-nav .left-button,
+.hodnotenie-open .six-article-nav .right-button {
+    margin: 0;
+    padding: 0;
+    margin-right: 5px; /* Horizontálny rozostup medzi tlačidlami */
+}
+  
+  
+.hodnotenie-open img {
+    margin-left: 110px;
+    padding: 0 12px;
+}
+  
+/* Štýly pre bočný panel */
+.hodnotenie-open aside {
+    width: 100vw;
+    position: absolute;
+    top: -355px;
+    left: calc(100vw - 350px);
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* sekcia -  partneri openlabu začiatok */
@@ -1259,6 +1391,7 @@ li {
 
     margin-left: 80px;
 }
+
 
 
 
