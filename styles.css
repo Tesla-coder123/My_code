@@ -3,8 +3,10 @@
 body {
     font-family: 'SF Pro Display', sans-serif;
     background-color: #ffffff;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
 }
-
 
 
 
@@ -64,12 +66,8 @@ body {
     margin-left: -32px; /* Posunutie obrázka doľava o 10px */
 
 }
-
 /* sekcia-header koniec */
 
-
-
-  
 
 /* sekcia - navigácia začiatok */
 .separator {
@@ -163,7 +161,6 @@ li {
     margin-left: 100px; /* Upravte hodnotu podľa potreby */
 
 }
-
 
 .img-open{
     margin-top: 50px;
@@ -296,8 +293,6 @@ li {
 
 
 
-
-
 /* sekcia - talent začiatok */
 .talent-development-section{
 
@@ -306,8 +301,6 @@ li {
 
     margin-left: 970px; /* Príklad hodnoty, ktorá posunie sekciu doprava */
     margin-top: -197px;
-    
-
 }
 
 .talent-development-section p {
@@ -315,9 +308,6 @@ li {
     
 }
 /* sekcia - talent koniec */
-
-
-
 
 
 
@@ -351,14 +341,6 @@ li {
     margin-left: 80px; /* Prispôsobte hodnotu posunu podľa potreby */
 }
 /* sekcia - naša vízia koniec */
-
-
-
-
-
-
-
-
 
 
 
@@ -488,9 +470,6 @@ li {
 
 
 
-
-
-
 /* sekcia -  labovia začiatok */
 
 .labs-part {
@@ -574,13 +553,7 @@ li {
     display: none;
 }
 
-  
 /* sekcia -  labovia koniec */
-
-
-
-
-
 
 
 
@@ -597,32 +570,32 @@ li {
 
 }
 
-.locations-section .skola1 {
+.locations-section .school-1 {
 
     margin-left: 130px;
 
 }
 
-.locations-section .skola2 {
+.locations-section .school-2 {
 
     margin-top: -497px;
     margin-left: 750px;
 
 }
 
-.locations-section .skola1 p{
+.locations-section .school-1 p{
 
     margin-left: 0px;
     color: #566b8d; 
    
 }
 
-.locations-section .skola1 h4{
+.locations-section .school-1 h4{
 
     font-size: 1.25rem;
 }
 
-.locations-section .skola1 a{
+.locations-section .school-1 a{
 
     margin-left: 365px;
     font-size: 1.125rem !important;
@@ -632,36 +605,32 @@ li {
 
 }
 
-.locations-section .skola1 a{
+.locations-section .school-1 a{
     position: relative;
     top: -50px; /* Alebo iná vhodná hodnota */
 }
 
-.locations-section .skola2 p{
+.locations-section .school-2 p{
 
     margin-left: 0px;
     color: #566b8d; 
    
 }
 
-.locations-section .skola2 h4{
+.locations-section .school-2 h4{
 
     font-size: 1.25rem;
 }
 
-.locations-section .skola2 a{
+.locations-section .school-2 a{
 
     margin-left: 450px;
     font-size: 1.125rem !important;
     text-decoration: none;
     color: #3597ff
-    
-    
-    
-
 }
 
-.locations-section .skola2 a{
+.locations-section .school-2 a{
     position: relative;
     top: -50px; /* Alebo iná vhodná hodnota */
     left: -50px;
@@ -670,14 +639,8 @@ li {
 
 
 
-
-
-
 /* sekcia -  Čo si myslia študenti začiatok */
-
-
-/* Štýly pre hlavnú sekciu */
-.hodnotenie-open {
+.evaluation-of-openlab {
     font-family: "SF Pro Display", sans-serif;
     text-align: left;
     min-height: 556.656px;
@@ -688,14 +651,14 @@ li {
 }
   
 /* Štýly pre nadpis v hlavnej sekcii */
-.hodnotenie-open h1 {
+.evaluation-of-openlab h1 {
     margin-left: 80px;
     font-weight: normal;
     font-size: 40px;
 }
   
 /* Štýly pre textový popis v hlavnej sekcii */
-.hodnotenie-open .review {
+.evaluation-of-openlab .review {
     letter-spacing: 1px;
     line-height: 1.5rem;
     font-size: 14px;
@@ -709,7 +672,7 @@ li {
 }
   
 /* Štýly pre ikonu citátu v textovom popise */
-.hodnotenie-open .review::before {
+.evaluation-of-openlab .review::before {
     content: url("https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/quote.svg");
     position: absolute;
     top: 240px;
@@ -717,13 +680,13 @@ li {
 }
   
 /* Štýly pre kontajner obsahujúci text a obrázok */
-.hodnotenie-open .cantainer {
+.evaluation-of-openlab .cantainer {
     display: flex;
     flex-direction: row;
 }
   
 /* Štýly pre ľavý článok */
-.hodnotenie-open .sixth-left {
+.evaluation-of-openlab .sixth-left {
     width: 526px;
     position: relative;
     display: flex;
@@ -732,13 +695,13 @@ li {
 }
   
 /* Štýly pre názov a informácie o autorovi */
-.hodnotenie-open .six-article-nav {
+.evaluation-of-openlab .six-article-nav {
     display: flex;
     justify-content: space-between;
 
 }
   
-.hodnotenie-open .six-article-nav p.name {
+.evaluation-of-openlab .six-article-nav p.name {
     letter-spacing: 1px;
     line-height: 1.5rem;
     font-size: 14px;
@@ -753,58 +716,39 @@ li {
     margin-left: 20px;
 }
   
-.hodnotenie-open .six-article-nav p.name::before {
+.evaluation-of-openlab .six-article-nav p.name::before {
     content: url("https://openlab.sk/wp-content/themes/wp-bootstrap-starter/assets/images/icon-person.svg");
     position: relative;
     top: 10px;
 }
   
 /* Štýly pre tlačidlá pre prechod medzi obrázkami */
-.hodnotenie-open .six-article-nav .buttons {
+.evaluation-of-openlab .six-article-nav .buttons {
     align-self: center;
 }
 
 /* Štýly pre oba tlačidlá šípok */
-.hodnotenie-open .six-article-nav .left-button,
-.hodnotenie-open .six-article-nav .right-button {
+.evaluation-of-openlab .six-article-nav .left-button,
+.evaluation-of-openlab .six-article-nav .right-button {
     margin: 0;
     padding: 0;
     margin-right: 5px; /* Horizontálny rozostup medzi tlačidlami */
 }
   
   
-.hodnotenie-open img {
+.evaluation-of-openlab img {
     margin-left: 110px;
     padding: 0 12px;
 }
   
 /* Štýly pre bočný panel */
-.hodnotenie-open aside {
+.evaluation-of-openlab aside {
     width: 100vw;
     position: absolute;
     top: -355px;
     left: calc(100vw - 350px);
 }
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* sekcia -  partneri openlabu začiatok */
@@ -867,29 +811,6 @@ li {
 .partners-opn .grid article .arrow-blue {
     margin-top: -19px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* sekcia -  čim sme výnimočný? začiatok */ 
@@ -963,11 +884,6 @@ li {
 
 
 
-
-
-
-
-
 /* sekcia -  Spoznájte nás začiatok */  
 
 .separator {
@@ -989,7 +905,7 @@ li {
 
 }
 
-.prve6 {
+.first6 {
     display: flex;
     justify-content: flex-start; /* Upravujeme zarovnanie na začiatok */
     flex-wrap: wrap; /* Obrázky budú prelomiť na nový riadok */
@@ -998,7 +914,7 @@ li {
     margin-left: 35px;
 }
   
-.clen {
+.member {
     flex: 0 0 calc(23% - 10px); /* Úprava šírky s menšou medzerou */
     margin-right: 10px;
     margin-left: 12px;
@@ -1006,17 +922,17 @@ li {
     
 }
   
-.clen img {
+.member img {
     width: 100%;
     height: auto;
     border-radius: 10px; /* Prispôsobte hodnotu podľa vášho vkusu */
 }
   
-.clen h4 {
+.member h4 {
     margin-top: 10px;
 }
 
-.prve6 p {
+.first6 p {
 
     color: #566b8d; 
     margin-top: -25px;
@@ -1024,7 +940,7 @@ li {
 
 }
 
-.prve6 h6 {
+.first6 h6 {
 
     color: #566b8d;
     font-size: 14px;
@@ -1033,7 +949,7 @@ li {
 
 }
 
-.prve6 h4 {
+.first6 h4 {
 
     font-size: 1.25rem;
     margin-top: -10px;
@@ -1043,26 +959,16 @@ li {
 
 
 
-
-
-
 /* sekcia -  Podporte nás začiatok */  
-.Support_us .pomoc-pic {
+.Support_us .help-pic {
 
     margin-left: 50px;
-    
-
-
 }
 
 .Support_us .together {
 
     margin-top: -350px ;
     margin-left: 750px;
-
-
-
-
 }
 
 .Support_us .together h2{
@@ -1085,10 +991,6 @@ li {
     
 }
 /* sekcia -  Podporte nás koniec */  
-
-
-
-
 
 
 /* sekcia -  Kto stojí za openlabom začiatok */  
@@ -1136,12 +1038,9 @@ li {
 /* sekcia -  Kto stojí za openlabom koniec */
 
 
-
-
-
 /* sekcia -  instagram foto začiatok */
 
-.Instagram_pict .ftky {
+.Instagram_pict .pictures-ig {
     
     position: relative;
     display: flex;
@@ -1153,25 +1052,17 @@ li {
 }
 
 /* Nastavit maximální výšku obrázků */
-.Instagram_pict .ftky img {
+.Instagram_pict .pictures-ig img {
     height: 430px; /* Zde můžete upravit maximální výšku podle svých potřeb */
     width: 237px; /* Omezit maximální šířku na 100% */
     height: auto; /* Udržet původní poměr stran */
 }
-
 /* sekcia -  instagram foto koniec */
 
 
 
-
-
-
-
-
-
-
 /* sekcia -  Moderná škola začiatok */
-.Modern_School .prva1 h2 {
+.Modern_School .first1 h2 {
 
     margin-left: 80px;
     font-size: calc(1.375rem + 1.5vw);
@@ -1179,7 +1070,7 @@ li {
 
 }
 
-.Modern_School .prva1 p {
+.Modern_School .first1 p {
 
     color: #566b8d; 
     margin-left: 80px;
@@ -1193,14 +1084,14 @@ li {
 }
 
 
-.Modern_School .prva1 img {
+.Modern_School .first1 img {
 
     margin-left: 730px;
     margin-top: -230px;
 }
 
 
-.Modern_School .prva2 {
+.Modern_School .first2 {
 
     margin-left: 80px;
     margin-top: -110px;
@@ -1352,21 +1243,21 @@ li {
 
 /* sekcia - Info_Koniec_Stránky začiatok */
 
-.Info_End_Page .zlt-fot {
+.Info_End_Page .yell-pic {
 
     margin-left: 1370px;
     margin-top: -50px;
     
 }
 
-.Info_End_Page .obr3{
+.Info_End_Page .pic3{
 
     margin-left: 1250px;
     margin-top: -30px;
 }
 
-.vst-dkop p,
-.vst-dkop a {
+.together2 p,
+.together2 a {
     display: inline-block; /* Nastaví zobrazovanie na inline-block */
     margin-right: 120px; /* Voliteľne: pridá medzeru medzi jednotlivými položkami */
     font-size: 13px;
@@ -1376,8 +1267,8 @@ li {
 
 
 
-.obr-ico img,
-.obr-ico p {
+.ico-pic img,
+.ico-pic p {
     display: inline-block; /* Nastaví zobrazovanie na inline-block */
     vertical-align: middle; /* Umiestni elementy vertikálne do stredu riadka */
     margin-right: 293px;
@@ -1386,8 +1277,8 @@ li {
 
 }
 
-.obr-ico,
-.vst-dkop{
+.ico-pic,
+.together2{
 
     margin-left: 80px;
 }
