@@ -101,7 +101,7 @@ li {
 
 .nv-icon {
     font-family: "SF Pro Display", sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     color: #121a24;
     font-weight: 620;
     text-decoration: none;
@@ -115,7 +115,7 @@ li {
     text-decoration: none;
     padding: 10px 20px;
     transition: color 0.3s;
-    font-size: 12px;
+    font-size: 16px;
     
 }
 
@@ -153,6 +153,7 @@ li {
 .nv-butn button {
     float: right;
     margin-top: -80px;
+    margin-right: 20px;
     
 
 }
@@ -752,70 +753,294 @@ li {
 
 
 /* sekcia -  partneri openlabu začiatok */
-.partners-opn {
+.seventh {
     font-family: "SF Pro Display", sans-serif;
     text-align: left;
     letter-spacing: 1px;
 }
-  
-.partners-opn .grid {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-  
-.partners-opn .grid article {
-    width: 308px;
-    padding: 24px;
-    margin: 8px 12px;
-    border-radius: 6px;
+.seventh .move1, .seventh .move2, .seventh .move3, .seventh .move4 {
     position: relative;
 }
-  
-.partners-opn .grid article h3 {
-    margin-bottom: 8px;
-    color: #0c0303;
+.seventh .move1 .img-student, .seventh .move2 .img-student, .seventh .move3 .img-student, .seventh .move4 .img-student {
+    position: absolute;
+    left: -700px;
+    top: 130px;
+    opacity: 0.3;
+    z-index: -3;
 }
-  
-.partners-opn .grid article p {
-    color: #566b8d;
-    line-height: 1.5;
-    min-height: 120px;
-    margin: 0;
-    margin-bottom: 10px;
+.seventh .move1 .img-student2, .seventh .move2 .img-student2, .seventh .move3 .img-student2, .seventh .move4 .img-student2 {
+    position: absolute;
+    left: 550px;
+    top: 130px;
+    z-index: -1;
 }
-  
-.partners-opn .grid article .arrow-blue {
-    display: none;
+.seventh .move1 .img-student3, .seventh .move2 .img-student3, .seventh .move3 .img-student3, .seventh .move4 .img-student3 {
+    position: absolute;
+    left: 1800px;
+    top: 130px;
+    opacity: 0.3;
+    z-index: -3;
 }
-  
-.partners-opn .grid article:hover, .partners-opn .grid article:focus, .partners-opn .grid article:active {
-    box-shadow: 0px 0px 10px rgba(197, 197, 197, 0.61);
-}
-  
-.partners-opn .grid article:hover .arrow-blue, .partners-opn .grid article:focus .arrow-blue, .partners-opn .grid article:active .arrow-blue {
-    display: block;
-}
-  
-.partners-opn h1 {
+.seventh h1 {
     font-weight: normal;
     font-size: 40px;
     text-align: center;
     padding: 48px;
 }
-
-.partners-opn{
-    margin-bottom: 100px;
+.seventh .grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.seventh .grid article {
+    width: 308px;
+    padding: 24px 24px 24px 24px;
+    margin-top: 8px;
+}
+.seventh .grid article h3 {
+    margin: 0;
+    margin-bottom: 8px;
+}
+.seventh .grid article p {
+    font-weight: 400;
+    color: #566b8d;
+    line-height: 1.5;
+    min-height: 120px;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.seventh .grid article .arrow-blue {
+    display: none;
+}
+.seventh .grid article:hover, .seventh .grid article:focus, .seventh .grid article:active {
+    box-shadow: 0px 0px 10px rgba(197, 197, 197, 0.61);
+}
+.seventh .grid article:hover .arrow-blue, .seventh .grid article:focus .arrow-blue, .seventh .grid article:active .arrow-blue {
+    display: block;
+}
+.seventh .grid article:hover .arrow, .seventh .grid article:focus .arrow, .seventh .grid article:active .arrow {
+    display: none;
+}
+.seventh .move1, .seventh .move2, .seventh .move3, .seventh .move4 {
+    padding-top: 100px;
+}
+.seventh .move1 .mov-art-1, .seventh .move1 .mov-art-2, .seventh .move1 .mov-art-3, .seventh .move1 .mov-art-4, .seventh .move2 .mov-art-1, .seventh .move2 .mov-art-2, .seventh .move2 .mov-art-3, .seventh .move2 .mov-art-4, .seventh .move3 .mov-art-1, .seventh .move3 .mov-art-2, .seventh .move3 .mov-art-3, .seventh .move3 .mov-art-4, .seventh .move4 .mov-art-1, .seventh .move4 .mov-art-2, .seventh .move4 .mov-art-3, .seventh .move4 .mov-art-4 {
+    width: 519px;
+    height: 418px;
+    background-color: #A54FA2;
+    border-radius: 6px;
+    padding: 40px 32px;
+    position: relative;
+    left: 200px;
+    top: -50px;
+}
+.seventh .move1 .mov-art-2, .seventh .move2 .mov-art-2, .seventh .move3 .mov-art-2, .seventh .move4 .mov-art-2 {
+    background-color: #3597FF;
+}
+.seventh .move1 .mov-art-2 .sign, .seventh .move2 .mov-art-2 .sign, .seventh .move3 .mov-art-2 .sign, .seventh .move4 .mov-art-2 .sign {
+    width: 179px;
+    height: 63px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    position: relative;
+    top: 20px;
+    z-index: 0;
+}
+.seventh .move1 .mov-art-3, .seventh .move2 .mov-art-3, .seventh .move3 .mov-art-3, .seventh .move4 .mov-art-3 {
+    background-color: #33A969;
+}
+.seventh .move1 .mov-art-4, .seventh .move2 .mov-art-4, .seventh .move3 .mov-art-4, .seventh .move4 .mov-art-4 {
+    background-color: #F9A94A;
+}
+.seventh .move1 p, .seventh .move1 h3, .seventh .move2 p, .seventh .move2 h3, .seventh .move3 p, .seventh .move3 h3, .seventh .move4 p, .seventh .move4 h3 {
+    color: #fff;
+}
+.seventh .move1 .heading, .seventh .move2 .heading, .seventh .move3 .heading, .seventh .move4 .heading {
+    font-size: 18px;
+    padding: 0;
+    padding-bottom: 16px;
+    margin: 0;
+    border-bottom: 1px rgba(255, 255, 255, 0.5) solid;
+}
+.seventh .move1 .moto, .seventh .move2 .moto, .seventh .move3 .moto, .seventh .move4 .moto {
+    font-size: 28px;
+    padding: 24px 0;
+    margin: 0;
+}
+.seventh .move1 .txt, .seventh .move2 .txt, .seventh .move3 .txt, .seventh .move4 .txt {
+    font-size: 16px;
+    padding-bottom: 48px;
+    margin: 0;
+}
+.seventh .move1 .name, .seventh .move1 .school, .seventh .move2 .name, .seventh .move2 .school, .seventh .move3 .name, .seventh .move3 .school, .seventh .move4 .name, .seventh .move4 .school {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+.seventh .move1 img, .seventh .move2 img, .seventh .move3 img, .seventh .move4 img {
+    height: 500px;
+    width: 1199px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 25px;
+}
+.seventh .move1 aside img, .seventh .move2 aside img, .seventh .move3 aside img, .seventh .move4 aside img {
+    max-width: 482px;
+    max-height: 482px;
+    border-radius: none;
+}
+.seventh .move1 aside, .seventh .move2 aside, .seventh .move3 aside, .seventh .move4 aside {
+    width: 100vw;
+    position: absolute;
+    top: 450px;
+    left: calc(100vw - 275px);
+    z-index: -2;
+}
+.seventh .move1 .dotted-nav, .seventh .move2 .dotted-nav, .seventh .move3 .dotted-nav, .seventh .move4 .dotted-nav {
+    text-align: center;
+    font-size: 80px;
+    position: relative;
+    bottom: 90px;
+}
+.seventh .move1 .dotted-nav ul, .seventh .move2 .dotted-nav ul, .seventh .move3 .dotted-nav ul, .seventh .move4 .dotted-nav ul {
+    list-style: none;
+}
+.seventh .move1 .dotted-nav ul li a, .seventh .move2 .dotted-nav ul li a, .seventh .move3 .dotted-nav ul li a, .seventh .move4 .dotted-nav ul li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+.seventh .move1 .dotted-nav ul li a:hover, .seventh .move1 .dotted-nav ul li a:focus, .seventh .move1 .dotted-nav ul li a:active, .seventh .move1 .dotted-nav ul .activ, .seventh .move2 .dotted-nav ul li a:hover, .seventh .move2 .dotted-nav ul li a:focus, .seventh .move2 .dotted-nav ul li a:active, .seventh .move2 .dotted-nav ul .activ, .seventh .move3 .dotted-nav ul li a:hover, .seventh .move3 .dotted-nav ul li a:focus, .seventh .move3 .dotted-nav ul li a:active, .seventh .move3 .dotted-nav ul .activ, .seventh .move4 .dotted-nav ul li a:hover, .seventh .move4 .dotted-nav ul li a:focus, .seventh .move4 .dotted-nav ul li a:active, .seventh .move4 .dotted-nav ul .activ {
+    color: #3597FF;
 }
 
-.partners-opn .grid article .arrow-blue {
-    margin-top: -19px;
+/* sekcia -  partneri openlabu koniec */
+
+
+
+/* sekcia -  Študentské projekty  začiatok */
+.students_proj {
+    font-family: "SF Pro Display", sans-serif;
+    text-align: left;
+    letter-spacing: 1px;
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 48px 12px;
+    border-bottom: 1px solid #d7eaff;
 }
+  
+.header2 {
+    text-align: center;
+    margin-bottom: 48px;
+    padding: 0 12px;
+}
+  
+.header2 h2 {
+    font-size: 40px;
+    color: #212529;
+    margin-bottom: 48px;
+}
+  
+.header2 p {
+    font-size: 16px;
+    color: #566b8d;
+    margin: 0 48px 48px 48px;
+    padding: 0 48px;
+}
+  
+aside {
+    color: #212529;
+}
+  
+aside .line {
+    width: 50px;
+    height: 1px;
+    background-color: rgba(86, 107, 141, 0.5);
+}
+  
+.slide1, .slide2, .slide3 {
+    display: flex;
+    justify-content: center;
+}
+  
+.slide1 .content1, .slide1 .content2, .slide2 .content1, .slide2 .content2, .slide3 .content1, .slide3 .content2 {
+    width: 660px;
+    height: 450px;
+}
+  
+.content1 h2, .content2 h2 {
+    width: 416px;
+    font-size: 28px;
+    color: #212529;
+    margin-bottom: 48px;
+}
+  
+.content1 p, .content2 p {
+    width: 416px;
+    font-size: 16px;
+    color: #566b8d;
+    line-height: 1.5;
+    margin-bottom: 16px;
+}
+  
+.content2 iframe {
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+  
+.disabled {
+    display: none;
+}
+  
+.after-slide .dotted-nav {
+    height: 30px;
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    bottom: 40px;
+}
+  
+.after-slide .dotted-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+.after-slide .dotted-nav ul li a {
+    text-decoration: none;
+    color: rgba(53, 151, 255, 0.2);
+  }
+  
+.after-slide .dotted-nav ul li a:hover,
+.after-slide .dotted-nav ul li a:focus,
+.after-slide .dotted-nav ul li a:active,
+.after-slide .dotted-nav ul .activ {
+    color: #3597FF;
+}
+  
+.after-slide a {
+    text-decoration: none;
+    color: #3597FF;
+    line-height: 22px;
+}
+  
+.after-slide a img {
+    position: relative;
+    bottom: -2px;
+}
+  
+
+
+
+
+
+
+
+
 
 
 /* sekcia -  čim sme výnimočný? začiatok */ 
-
-
 .separator {
     border-top: 1px solid#d7eaff; /* Hrúbka a farba čiary */
     margin: 10px 0; /* Medzera nad a pod čiarou */
@@ -827,9 +1052,6 @@ li {
 
     text-align: center;
     font-size: calc(1.375rem + 1.5vw);
-
-
-
 
 }
 
@@ -847,8 +1069,6 @@ li {
     flex: 0 0 calc(23% - 10px); /* Úprava šírky s menšou medzerou */
     margin-right: 10px;
     margin-left: 12px;
-    
-    
 }
   
 .cast img {
@@ -858,7 +1078,7 @@ li {
 
 .What-makes-us-special .cast-row .cast{
 
-    margin-left: 85px;
+    margin-left: 105px;
 
 }
 
@@ -1079,8 +1299,6 @@ li {
     font-size: 16px;
     letter-spacing: 1px;
     
-
-
 }
 
 
@@ -1282,9 +1500,4 @@ li {
 
     margin-left: 80px;
 }
-
-
-
-
-
 
